@@ -1,0 +1,11 @@
+* If there's a phenotype_dir.txt file in the same directory as this phenotype.txt file, include it. This allows for a single phenotype_dir.txt file to be used for multiple phenotypes, rather than having to copy it into each phenotype directory.
+$set path ../phenotype_dir.txt
+$if exist %path% $include %path%
+* adds phenotype_common.txt, then settings based on FBA yield predictions
+$include RBA_GAMS_defaults_from_FBA.txt
+
+* everything below overrides default settings, including phenotype_common.txt
+
+* turn on use_membrane_SA_vivo(c) equations (from defaults.gms)
+use_membrane_SA_vivo(c) = 1;
+use_membrane_SA_vivo('c')=0;

@@ -1,0 +1,216 @@
+c:
+  k_ribo: 78864.64728547896
+  subunits:
+    P1/P2:
+      A0A099P0R0 OR A0A099P561 OR A0A099P5Q7 OR A0A099P5Y8: 1
+    P2:
+      A0A099P0R0 OR A0A099P561: 2
+    RACK1:
+      A0A099NY96 OR A0A099P0H9: 1
+    eL13:
+      A0A099P3K9: 1
+    eL14:
+      A0A099NZG9: 1
+    eL18:
+      A0A099NWW3: 1
+    eL20:
+      A0A099NXZ8: 1
+    eL30:
+      A0A099P157: 1
+    eL36:
+      A0A099NT04: 1
+    eL38:
+      A0A099P5B6: 1
+    eL8:
+      A0A099NXX4 OR A0A099P109_c OR A0A099P157: 1
+    eS1:
+      A0A099P3A1: 1
+    eS10:
+      A0A099P1I2: 1
+    eS12:
+      A0A099NYC0 OR A0A099P157 OR A0A099P8M8: 1
+    eS17:
+      A0A099NX67: 1
+    eS19:
+      A0A099NWW3: 1
+    eS21:
+      A0A099NVH7: 1
+    eS24:
+      A0A099P7T6: 1
+    eS28:
+      A0A099NZ34: 1
+    eS4:
+      A0A099P399: 1
+    eS7:
+      A0A099P5W9: 1
+    eS8:
+      A0A099P980: 1
+    uL1:
+      A0A099NYY7: 1
+    uL10:
+      A0A099P467_c OR A0A099P603: 1
+    uL13:
+      A0A099P7U3: 1
+    uL14:
+      A0A099NWS0: 1
+    uL15:
+      A0A099P041_n: 1
+    uL16:
+      A0A099P3F6: 1
+    uL22:
+      A0A099P6Y2: 1
+    uL23:
+      A0A099P8P7: 1
+    uL24:
+      A0A099NU97 OR A0A099P6W2: 1
+    uL29:
+      A0A099P0Z9: 1
+    uL30:
+      A0A099NVA8_c OR A0A099P5X6: 1
+    uL4:
+      A0A099NXA4 OR A0A099P849: 1
+    uL6:
+      A0A099NTB3 OR A0A099NTY7: 1
+    uS10:
+      A0A099NWP3: 1
+    uS11:
+      A0A099P1B9: 1
+    uS13:
+      A0A099NXA4: 1
+    uS15:
+      A0A099NT48_n: 1
+    uS17:
+      A0A099NY90: 1
+    uS2:
+      A0A099P193: 1
+    uS3:
+      A0A099P5R5_c: 1
+    uS7:
+      A0A099NY15 OR A0A099P4D2: 1
+    uS8:
+      A0A099NSK6 OR A0A099P7Y1: 1
+m:
+  k_ribo: 1286.436262517519
+  subunits:
+    bL12:
+      A0A099NT84_m OR A0A099NYV2_m: 1
+    bL21:
+      A0A099P5W7_m: 1
+    bL27:
+      A0A099P118_m: 1
+    bL28:
+      A0A099NXE4_m: 1
+    bL31:
+      A0A099NS55_m OR A0A099P4H2_m: 1
+    bL32:
+      A0A099NV90_m: 1
+    bL33:
+      A0A099NNU5_m: 1
+    bS18:
+      A0A099P2G7_m: 1
+    bS6:
+      A0A099P4H4_m: 1
+    eL13:
+      A0A099P291_m: 1
+    eL19:
+      A0A099NYS5_m: 1
+    eL22:
+      A0A099P6M9_m: 1
+    eL27:
+      A0A099P6T3_m: 1
+    eS10:
+      A0A099P782_m: 1
+    eS17:
+      A0A099NVM6_m: 1
+    eS21:
+      A0A099P5B9_m: 1
+    eS25:
+      A0A099P1Z2_m: 1
+    eS8:
+      A0A099NXC3_m: 1
+    mL38:
+      A0A099NY98_m: 1
+    mL40:
+      A0A099P5L7_m: 1
+    mL41:
+      A0A099P6T3_m: 1
+    mL43:
+      A0A099NZD1_m: 1
+    mL44:
+      A0A099NYD4_m: 1
+    mL46:
+      A0A099P2K3_m: 1
+    mL50:
+      A0A099P4X1_m: 1
+    mL53:
+      A0A099NWM6_m: 1
+    mL59:
+      A0A099NZL6_m: 1
+    mL60:
+      A0A099P0V0_m: 1
+    mL61:
+      A9YUD0_m: 1
+    mL67:
+      A0A099P116_m: 1
+    mS23:
+      A0A099P1Z2_m: 1
+    mS29:
+      A0A099P5Z9_m: 1
+    mS33:
+      A0A099NYE8_m: 1
+    mS35:
+      A0A099NTK9_m: 1
+    mS41:
+      A0A099NWA5_m: 1
+    uL1:
+      A0A099P4S3_m: 1
+    uL11:
+      A0A099NW01_m: 1
+    uL13:
+      A0A099P291_m OR A0A099P7P3_m: 1
+    uL14:
+      A9YUC5_m: 1
+    uL15:
+      A0A099NZB7_m: 1
+    uL16:
+      A0A099P7P3_m: 1
+    uL2:
+      A0A099P118_m OR A0A099P4M4_m: 1
+    uL22:
+      A0A099NWB4_m OR A0A099P6M9_m: 1
+    uL23:
+      A0A099P205_m: 1
+    uL29:
+      A0A099P5R2_m: 1
+    uL3:
+      A0A099NZE2_m: 1
+    uL4:
+      A0A099P5R2_m: 1
+    uL6:
+      A0A099P092_m: 1
+    uS10:
+      A0A099P782_m: 1
+    uS11:
+      A0A099P6H4_m: 1
+    uS13:
+      A0A099NWE0_m: 1
+    uS14:
+      A0A099P174_m: 1
+    uS15:
+      A0A099NSY0_m: 1
+    uS17:
+      A0A099NVM6_m: 1
+    uS19:
+      A0A099NSY0_m OR A0A099NZV6_m: 1
+    uS2:
+      A0A099NZV5_m: 1
+    uS4:
+      A0A099NXX0_m OR A0A099P2C4_m: 1
+    uS5:
+      A0A099NZV5_m OR A0A099P0W1_m: 1
+    uS7:
+      A0A099P0W1_m: 1
+    uS8:
+      A0A099NXC3_m: 1
+    uS9:
+      A0A099P133_m OR A0A099P2C4_m: 1

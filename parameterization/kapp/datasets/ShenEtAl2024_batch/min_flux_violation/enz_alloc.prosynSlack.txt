@@ -1,0 +1,1 @@
+index	prosynSlack(% higher/lower than measured value)

@@ -1,0 +1,87 @@
+* adds phenotype_common.txt, then settings based on FBA yield predictions
+$include RBA_GAMS_defaults_from_FBA.txt
+
+* everything below overrides default settings, including phenotype_common.txt
+
+* removes mitochondrial capacity limits
+$setGlobal max_allowed_mito_proteome_allo_fraction 1
+*$include ../../input/prosyn_constraints.txt
+$setGlobal aa_path %gms_path%aa.txt
+$setGlobal tRNA_path %gms_path%tRNAs.txt
+$setGlobal translation_path %gms_path%translation.txt
+$setGlobal trans_by_any_ribo_path %gms_path%translated_by_any_ribo.txt
+$setGlobal ribosomes_path %gms_path%ribosomes.txt
+
+sets
+r
+$include %ribosomes_path%
+AA
+$include %aa_path%
+tRNA(AA,i)
+$include %tRNA_path%
+trans(r,j)
+$include %translation_path%
+trans_by_any_ribo(j)
+$include %trans_by_any_ribo_path%
+;
+
+*v_trans_UB(AA) "max molar fraction of all AAs that each AA can comprise" /#AA 1/
+*v_trans_LB(AA) "same as above, but min instead" /#AA 0/
+parameters
+v_trans_UB(AA) "max molar fraction of all AAs that each AA can comprise"
+/
+'A' 0.10749
+'C' 0.0097867
+'D' 0.055044
+'E' 0.0639907
+'F' 0.0336077
+'G' 0.0714922
+'H' 0.0220804
+'I' 0.0355118
+'K' 0.043849
+'L' 0.0929523
+'M' 0.0167135
+'N' 0.0252488
+'P' 0.0720768
+'Q' 0.036178
+'R' 0.0684234
+'S' 0.0909768
+'T' 0.0572089
+'V' 0.0619827
+'W' 0.0128902
+'Y' 0.0224972
+/
+v_trans_LB(AA) "same as above, but min instead"
+/
+'A' 0.1074899
+'C' 0.0097866
+'D' 0.0550439
+'E' 0.0639906
+'F' 0.0336076
+'G' 0.0714921
+'H' 0.0220803
+'I' 0.0355117
+'K' 0.0438489
+'L' 0.0929522
+'M' 0.0167134
+'N' 0.0252487
+'P' 0.0720767
+'Q' 0.0361779
+'R' 0.0684233
+'S' 0.0909767
+'T' 0.0572088
+'V' 0.0619826
+'W' 0.0128901
+'Y' 0.0224971
+/
+;
+
+variables v_trans(AA), v_trans_AA_sum;
+equations
+v_trans_def, v_trans_AA_sum_def, v_trans_UB_fx, v_trans_LB_fx
+;
+
+v_trans_def(AA).. v_trans(AA) =e= sum(i$tRNA(AA,i),sum(j$(S(i,j) lt 0 and (sum(r,trans(r,j)) or trans_by_any_ribo(j))),v(j)*(-S(i,j))));
+v_trans_AA_sum_def..	v_trans_AA_sum =e= sum(AA,v_trans(AA));
+v_trans_UB_fx(AA).. v_trans(AA) =l= v_trans_AA_sum * v_trans_UB(AA);
+v_trans_LB_fx(AA).. v_trans(AA) =g= v_trans_AA_sum * v_trans_LB(AA);

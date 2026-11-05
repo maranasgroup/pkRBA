@@ -1,0 +1,7 @@
+* highest-level directory for model (i.e., where 'pycore' and 'GAMS' are)
+$setGlobal model_root_path ../../../
+$setGlobal gms_path %model_root_path%application/input/GAMS_model_application/
+
+* paths overriding default paths
+$setGlobal rxns_add_path %gms_path%RBA_rxns_add.txt
+$setGlobal kapp_path %model_root_path%parameterization/kapp/datasets/Rabinowitz2023_batchGlc_using_MFA_and_scRBA_methods/kapps_RBA_min_feasible_default_kapp_for_SC_and_RT.txt

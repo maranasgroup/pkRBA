@@ -1,0 +1,10 @@
+* Parameters defined in this file will overwrite ones define in .gms files
+
+* PROWASTE allowed for TOTALPROTEIN, PROTCYT to ensure other PROWASTE settings work as intended
+v.up('PROWASTE-TOTALPROTEIN') = inf;
+
+* prevent proteins w/o modeled functions from being used, to reduce solver time
+*$setGlobal ignore_pwmf 1 
+
+$setGlobal kappMaxSlackSum_Max 0
+

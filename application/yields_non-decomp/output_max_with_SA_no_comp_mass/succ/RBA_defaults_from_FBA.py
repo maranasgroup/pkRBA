@@ -1,0 +1,11 @@
+path_gams = '../../../GAMS/'
+path_pycore = '../../../pycore/'
+path_enz_mw = '../../input/GAMS_model_application_non-decomp/enz_mw_g_per_mmol.txt'
+path_pro_mw = '../../input/GAMS_model_application_non-decomp/pro_mw_g_per_mmol.txt'
+biom_id = 'BIOSYN-BIODILAERO-NOGAM'
+biom_id_fba = 'Biomass_MFA'
+mu = 0.143749481
+vprod_coreid = 'EX_succ_e'
+vprod = 'RXN-EX_succ_e_FWD-SPONT'
+c_sources_list = [{'rxn': 'EX_glc__D_e', 'MW': 180.156, 'v': -4.64989496}]
+prod_mw = 116.07

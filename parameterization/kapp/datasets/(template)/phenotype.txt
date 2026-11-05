@@ -1,0 +1,4 @@
+* Parameters defined in this file will overwrite ones define in .gms files
+
+* PROWASTE allowed for TOTALPROTEIN
+v.up('PROWASTE-TOTALPROTEIN') = inf;

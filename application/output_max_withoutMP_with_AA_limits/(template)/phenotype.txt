@@ -1,0 +1,87 @@
+* adds phenotype_common.txt, then settings based on FBA yield predictions
+$include RBA_GAMS_defaults_from_FBA.txt
+
+* everything below overrides default settings, including phenotype_common.txt
+
+* removes mitochondrial capacity limits
+$setGlobal max_allowed_mito_proteome_allo_fraction 1
+*$include ../../input/prosyn_constraints.txt
+$setGlobal aa_path %gms_path%aa.txt
+$setGlobal tRNA_path %gms_path%tRNAs.txt
+$setGlobal translation_path %gms_path%translation.txt
+$setGlobal trans_by_any_ribo_path %gms_path%translated_by_any_ribo.txt
+$setGlobal ribosomes_path %gms_path%ribosomes.txt
+
+sets
+r
+$include %ribosomes_path%
+AA
+$include %aa_path%
+tRNA(AA,i)
+$include %tRNA_path%
+trans(r,j)
+$include %translation_path%
+trans_by_any_ribo(j)
+$include %trans_by_any_ribo_path%
+;
+
+*v_trans_UB(AA) "max molar fraction of all AAs that each AA can comprise" /#AA 1/
+*v_trans_LB(AA) "same as above, but min instead" /#AA 0/
+parameters
+v_trans_UB(AA) "max molar fraction of all AAs that each AA can comprise"
+/
+'A' 0.10748992620216
+'C' 0.009786670924408
+'D' 0.05504393501893
+'E' 0.063990604103128
+'F' 0.033607650944597
+'G' 0.071492166928717
+'H' 0.02208035765027
+'I' 0.035511727280846
+'K' 0.043848962040252
+'L' 0.092952265488211
+'M' 0.016713438676348
+'N' 0.025248766653226
+'P' 0.07207670429175
+'Q' 0.036177991627044
+'R' 0.068423345772794
+'S' 0.09097674569648
+'T' 0.057208888215348
+'V' 0.06198261001345
+'W' 0.012890131331474
+'Y' 0.022497111140579
+/
+v_trans_LB(AA) "same as above, but min instead"
+/
+'A' 0.10748992620215
+'C' 0.0097866709244079
+'D' 0.055043935018929
+'E' 0.063990604103127
+'F' 0.033607650944596
+'G' 0.071492166928716
+'H' 0.02208035765026
+'I' 0.035511727280845
+'K' 0.043848962040251
+'L' 0.09295226548821
+'M' 0.016713438676347
+'N' 0.025248766653225
+'P' 0.072076704291749
+'Q' 0.036177991627043
+'R' 0.068423345772793
+'S' 0.09097674569647
+'T' 0.057208888215347
+'V' 0.061982610013449
+'W' 0.012890131331473
+'Y' 0.022497111140578
+/
+;
+
+variables v_trans(AA), v_trans_AA_sum;
+equations
+v_trans_def, v_trans_AA_sum_def, v_trans_UB_fx, v_trans_LB_fx
+;
+
+v_trans_def(AA).. v_trans(AA) =e= sum(i$tRNA(AA,i),sum(j$(S(i,j) lt 0 and (sum(r,trans(r,j)) or trans_by_any_ribo(j))),v(j)*(-S(i,j))));
+v_trans_AA_sum_def..	v_trans_AA_sum =e= sum(AA,v_trans(AA));
+v_trans_UB_fx(AA).. v_trans(AA) =l= v_trans_AA_sum * v_trans_UB(AA);
+v_trans_LB_fx(AA).. v_trans(AA) =g= v_trans_AA_sum * v_trans_LB(AA);

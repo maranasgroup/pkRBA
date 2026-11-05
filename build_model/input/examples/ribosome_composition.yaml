@@ -1,0 +1,113 @@
+# How the lines in this file should be structured (can remove 1st "#" at beginning of lines and add lines as needed) for each ribosome type (e.g. cytosolic, mitochondrial, chloroplastic):
+# Ribosome_type: # Should use your GSM model's name for the ribosome's compartment (e.g. if "c" represents the cytosol in your model, use "c" as the Ribosome_type for the cytosolic ribosome)
+#   k_ribo: value # only include this line if value of k_ribo (elongation rate, in amino acids per ribosome per hour) is known
+#   subunits: # each line is a group of 1 or more interchangeable subunits, with the format below
+#     # subunit_id: For proteins, use the gene_src value from PROTEIN_stoich_curation.tsv; all post-translationally modified versions of the protein in the ribosome's compartment will be allowed to be used interchangeably in the ribosome
+#     # copies_per_ribosome should be a number
+#     subunit_id: copies_per_ribosome # use this format when only one subunit can be used in the ribosome
+#     subunit_id OR subunit_id2: copies_per_ribosome # use this format when multiple subunits can be used interchangeably in the same ribosome (e.g. paralogs); can add as many subunit_ids as needed. In this case, 1 copy of either subunit can be used in the ribosome.
+c:
+  k_ribo: 77348.30478860822
+  subunits:
+    A0A099NSK6 OR A0A099NXC3 OR A0A099P7Y1: 1
+    A0A099NSY0 OR A0A099NT48: 1
+    A0A099NT04: 1
+    A0A099NTB3 OR A0A099NTY7 OR A0A099P092: 1
+    A0A099NU97 OR A0A099P6W2: 1
+    A0A099NVA8 OR A0A099P5X6: 1
+    A0A099NVH7 OR A0A099P5B9: 1
+    A0A099NVM6 OR A0A099NX67: 1
+    A0A099NVM6 OR A0A099NY90: 1
+    A0A099NWB4 OR A0A099P6Y2: 1
+    A0A099NWE0 OR A0A099NXA4: 1
+    A0A099NWP3: 1
+    A0A099NWS0: 1
+    A0A099NWW3: 1
+    A0A099NXA4 OR A0A099P849: 1
+    A0A099NXC3 OR A0A099P980: 1
+    A0A099NXL0 OR A0A099NXX0: 1
+    A0A099NXX4 OR A0A099P109 OR A0A099P157: 1
+    A0A099NXZ8: 1
+    A0A099NY15 OR A0A099P4D2: 1
+    A0A099NY96 OR A0A099P0H9: 1
+    A0A099NYC0 OR A0A099P157 OR A0A099P8M8: 1
+    A0A099NYY7: 1
+    A0A099NZ34: 1
+    A0A099NZG9: 1
+    A0A099P041: 1
+    A0A099P0R0 OR A0A099P561: 2
+    A0A099P0R0 OR A0A099P561 OR A0A099P5Q7 OR A0A099P5Y8: 1
+    A0A099P0Z9: 1
+    A0A099P157: 1
+    A0A099P193: 1
+    A0A099P1B9 OR A0A099P6H4: 1
+    A0A099P1I2: 1
+    A0A099P291 OR A0A099P3K9: 1
+    A0A099P291 OR A0A099P7P3 OR A0A099P7U3: 1
+    A0A099P399: 1
+    A0A099P3A1: 1
+    A0A099P3F6 OR A0A099P7P3: 1
+    A0A099P467 OR A0A099P603: 1
+    A0A099P5B6: 1
+    A0A099P5R5: 1
+    A0A099P5W9: 1
+    A0A099P7T6: 1
+    A0A099P8P7: 1
+m:
+  k_ribo: 1301.2797884530373
+  subunits:
+    A0A099NNU5: 1
+    A0A099NS55 OR A0A099P4H2: 1
+    A0A099NSY0: 1
+    A0A099NSY0 OR A0A099NZV6: 1
+    A0A099NT84 OR A0A099NYV2: 1
+    A0A099NTK9: 1
+    A0A099NV90: 1
+    A0A099NVM6: 1
+    A0A099NW01: 1
+    A0A099NWA5: 1
+    A0A099NWB4 OR A0A099P6M9: 1
+    A0A099NWE0: 1
+    A0A099NWM6: 1
+    A0A099NXC3: 1
+    A0A099NXE4: 1
+    A0A099NXX0 OR A0A099P2C4: 1
+    A0A099NY98: 1
+    A0A099NYD4: 1
+    A0A099NYE8: 1
+    A0A099NYS5: 1
+    A0A099NZB7: 1
+    A0A099NZD1: 1
+    A0A099NZE2: 1
+    A0A099NZL6: 1
+    A0A099NZV5: 1
+    A0A099NZV5 OR A0A099P0W1: 1
+    A0A099P092: 1
+    A0A099P0V0: 1
+    A0A099P0W1: 1
+    A0A099P116: 1
+    A0A099P118: 1
+    A0A099P118 OR A0A099P4M4: 1
+    A0A099P133 OR A0A099P2C4: 1
+    A0A099P174: 1
+    A0A099P1Z2: 1
+    A0A099P205: 1
+    A0A099P291: 1
+    A0A099P291 OR A0A099P7P3: 1
+    A0A099P2G7: 1
+    A0A099P2K3: 1
+    A0A099P4H4: 1
+    A0A099P4S3: 1
+    A0A099P4X1: 1
+    A0A099P5B9: 1
+    A0A099P5L7: 1
+    A0A099P5R2: 1
+    A0A099P5W7: 1
+    A0A099P5Z9: 1
+    A0A099P6H4: 1
+    A0A099P6M9: 1
+    A0A099P6T3: 1
+    A0A099P782: 1
+    A0A099P7P3: 1
+    A9YUC5: 1
+    A9YUD0: 1

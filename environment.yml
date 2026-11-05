@@ -1,0 +1,19 @@
+name: rba
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+- cobra
+- matplotlib
+- networkx
+- numpy
+- pandas
+- PyYAML
+- Requests
+- scipy
+- sympy
+- bs4
+- openpyxl
+# Useful for running notebooks in VSCode, but not strictly necessary for building or running models
+- ipykernel

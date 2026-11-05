@@ -1,0 +1,94 @@
+* all default settings (except paths run at start) specific to your model and preferred phenotype
+* if different values needed for specific tasks, make a separate phenotype.txt file for them
+$setGlobal vglc 10.8161844659641
+* biomass rxn
+$setGlobal bio 'BIOSYN-BIODILAERO'
+$setGlobal bio 'BIOSYN-BIODILAERO-NOGAM'
+* $setGlobal mu 0.52
+* measured growth rate
+$setGlobal mu_exp 0.47739217901585723
+* model growth rate; can be set to values other than mu_exp via command line, e.g., with --mu 0.52
+$setGlobal mu %mu_exp%
+v.fx('%bio%') = %mu%;
+* ATP maintenance (NGAM + (mu * (GAM - ATP costs of translation)))
+* v_sm_lo('ATPM_c') = 1.2586923703080508 + (%mu% * (190.57899-8.5));
+v_sm_lo('ATPM_c') = 1 + (%mu% * (214.719854-8.894269600791116));
+
+* included in model-version-settings:
+* max_allowed_mito_proteome_allo_fraction
+* nonmodeled_proteome_allocation
+$include %gms_path%model-version-settings.txt
+
+* turn off mass fraction limits for specific compartments
+*use_prot_mass_fraction_max_eqn(j) = 0;
+** entries prefaced by 2 asterisks cause infeasibilities
+**use_prot_mass_fraction_max_eqn('BIOSYN-protmem_c') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_m') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_n') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_en') = 1;
+**use_prot_mass_fraction_max_eqn('BIOSYN-prot_mm') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_vm') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-protmem_rm') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_rm') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_r') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-protmem_r') = 1;
+**use_prot_mass_fraction_max_eqn('BIOSYN-prot_l') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_gm') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-protmem_n') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-prot_g') = 1;
+*use_prot_mass_fraction_max_eqn('BIOSYN-protmem_m') = 1;
+**use_prot_mass_fraction_max_eqn('BIOSYN-protmem_l') = 1;
+* cytosol contains all the cell's soluble proteins except its envelope, so don't limit its mass fraction
+use_prot_mass_fraction_max_eqn('BIOSYN-prot_c') = 0;
+* soluble, extracellular proteins aren't contained in/on a membrane, so don't limit their mass fraction
+use_prot_mass_fraction_max_eqn('BIOSYN-prot_e') = 0;
+
+* From scRBA: Disable FADH2 transport across mitochondrial membrane. Enable this creates fumarate-succinate shuttle that enables proton gradient generation
+* check if FADH2t_c_m is in the model before trying to set its flux, since it's not in all models. Add to set generic_rxn_names to avoid unknown label errors if its name isn't present anywhere in the model.
+set generic_rxn_names / FADH2t_c_m /;
+v_sm_lo(sm_j)$sameAs(sm_j, 'FADH2t_c_m') = 0;
+v_sm_up(sm_j)$sameAs(sm_j, 'FADH2t_c_m') = 0;
+* Make sure fe3 can be imported, to allow for its usage in cofactors
+v_sm_lo('EX_fe3_e') = -%vmax%;
+
+* Substrate and oxygenation
+v_sm_up('EX_glc__D_e') = -%vglc% + 0.759719436201962;
+v_sm_lo('EX_glc__D_e') = -%vglc% - 0.759719436201962;
+
+v_sm_lo('EX_o2_e') = -20.36 - 0.92;
+v_sm_up('EX_o2_e') = -20.36 + 0.92;
+
+* other YNB nutrients (not measured, but needed for growth): https://www.sigmaaldrich.com/US/en/product/sigma/y0626
+* formula: fluxes are based on mass ratios of max glc flux (e.g., 5 g/L of ammonium sulfate per 20 g/L glc). While this would slightly exceed the MFA estimates for NH4, it may help for other unknown components.
+v_sm_lo('EX_nh4_e') = v_sm_lo('EX_glc__D_e') * (180.156 / 1000) * (5 / 20) * ((28.02+8)/132.13) * (1000/(28.02+8)) + 2*%vmin%;
+v_sm_lo('EX_so4_e') = v_sm_lo('EX_glc__D_e') * (180.156 / 1000) * (5 / 20) * ((132.13-(28.02+8))/132.13) * (1000/(132.13-(28.02+8))) + 2*%vmin%;
+* stick to MFA bounds instead for v_sm_lo('EX_ca2_e') = v_sm_lo('EX_glc__D_e') * (180.156/(238.27*2)) * ((400 / 1e6) / 20);
+*v_sm_lo('EX_ca2_e') = 0.0006138731616702;
+v_sm_lo('EX_pnto__R_e') = v_sm_lo('EX_glc__D_e') * (180.156/(238.27)) * ((400 / 1e6) / 20) + 2*%vmin%;
+v_sm_lo('EX_fol_e') = v_sm_lo('EX_glc__D_e') * (180.156/441.4) * ((2 / 1e6) / 20) + 2*%vmin%;
+v_sm_lo('EX_inost_e') = v_sm_lo('EX_glc__D_e') * (180.156/180.16) * ((2 / 1e3) / 20) + 2*%vmin%;
+v_sm_lo('EX_nac_e') = v_sm_lo('EX_glc__D_e') * (180.156/123.11) * ((400 / 1e6) / 20) + 2*%vmin%;
+v_sm_lo('EX_4abz_e') = v_sm_lo('EX_glc__D_e') * (180.156/137.138) * ((200 / 1e6) / 20) + 2*%vmin%;
+v_sm_lo('EX_pydxn_e') = v_sm_lo('EX_glc__D_e') * (180.156/169.180) * ((400 / 1e6) / 20) + 2*%vmin%;
+v_sm_lo('EX_ribflv_e') = v_sm_lo('EX_glc__D_e') * (180.156/376.369) * ((200 / 1e6) / 20) + 2*%vmin%;
+v_sm_lo('EX_thm_e') = v_sm_lo('EX_glc__D_e') * (180.156/337.27) * ((400 / 1e6) / 20) + 2*%vmin%;
+
+* Enforce other secretions that were/weren't detected
+v_sm_up('EX_etoh_e') = 4.27558127077485 + 1.76061001951029;
+v_sm_lo('EX_etoh_e') = 4.27558127077485 - 1.76061001951029;
+v_sm_up('EX_ac_e') = 2.15649410407398 + 0.725791356764709;
+v_sm_lo('EX_ac_e') = 2.15649410407398 - 0.725791356764709;
+v_sm_up('EX_succ_e') = 0.12756363873711 + 0.0653317608296651;
+v_sm_lo('EX_succ_e') = 0.12756363873711 - 0.0653317608296651;
+v_sm_up('EX_glyc_e') = 0.504389560063974 + 0.191;
+v_sm_lo('EX_glyc_e') = 0.504389560063974 - 0.191;
+
+* Example of how you'd edit kribo values if needed, with multiplication by 3600 converting 1/s into 1/h: kribo('m') = (6.6)*3600;
+
+* (disable since I now try to fill unmeasured proteome during kapp calculations) extra dummy protein for 0.3% of proteome not identified in measurements
+* Equation dummyUnidentified; dummyUnidentified.. v('PROSYN-PROTDUMMYUNIDENTIFIED') =e= 0.003 * v('BIOSYN-PROTTOBIO');
+
+* limit gross flux to net flux bounds, and ban cycling for all rxns when using find_blocked_rxns.gms
+cap_gross_flux(sm_j) = 1;
+
+$include %pheno_path%

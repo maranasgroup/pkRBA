@@ -1,0 +1,87 @@
+* adds phenotype_common.txt, then settings based on FBA yield predictions
+$include RBA_GAMS_defaults_from_FBA.txt
+
+* everything below overrides default settings, including phenotype_common.txt
+
+* removes mitochondrial capacity limits
+$setGlobal max_allowed_mito_proteome_allo_fraction 1
+*$include ../../input/prosyn_constraints.txt
+$setGlobal aa_path %gms_path%aa.txt
+$setGlobal tRNA_path %gms_path%tRNAs.txt
+$setGlobal translation_path %gms_path%translation.txt
+$setGlobal trans_by_any_ribo_path %gms_path%translated_by_any_ribo.txt
+$setGlobal ribosomes_path %gms_path%ribosomes.txt
+
+sets
+r
+$include %ribosomes_path%
+AA
+$include %aa_path%
+tRNA(AA,i)
+$include %tRNA_path%
+trans(r,j)
+$include %translation_path%
+trans_by_any_ribo(j)
+$include %trans_by_any_ribo_path%
+;
+
+*v_trans_UB(AA) "max molar fraction of all AAs that each AA can comprise" /#AA 1/
+*v_trans_LB(AA) "same as above, but min instead" /#AA 0/
+parameters
+v_trans_LB(AA) "max molar fraction of all AAs that each AA can comprise"
+/
+'A' 0.107
+'C' 0.009
+'D' 0.055
+'E' 0.063
+'F' 0.033
+'G' 0.071
+'H' 0.022
+'I' 0.035
+'K' 0.043
+'L' 0.092
+'M' 0.016
+'N' 0.025
+'P' 0.072
+'Q' 0.036
+'R' 0.068
+'S' 0.09
+'T' 0.057
+'V' 0.061
+'W' 0.012
+'Y' 0.022
+/
+v_trans_UB(AA) "same as above, but min instead"
+/
+'A' 0.108
+'C' 0.01
+'D' 0.056
+'E' 0.064
+'F' 0.034
+'G' 0.072
+'H' 0.023
+'I' 0.036
+'K' 0.044
+'L' 0.093
+'M' 0.017
+'N' 0.026
+'P' 0.073
+'Q' 0.037
+'R' 0.069
+'S' 0.091
+'T' 0.058
+'V' 0.062
+'W' 0.013
+'Y' 0.023
+/
+;
+
+variables v_trans(AA), v_trans_AA_sum;
+equations
+v_trans_def, v_trans_AA_sum_def, v_trans_UB_fx, v_trans_LB_fx
+;
+
+v_trans_def(AA).. v_trans(AA) =e= sum(i$tRNA(AA,i),sum(j$(S(i,j) lt 0 and (sum(r,trans(r,j)) or trans_by_any_ribo(j))),v(j)*(-S(i,j))));
+v_trans_AA_sum_def..	v_trans_AA_sum =e= sum(AA,v_trans(AA));
+v_trans_UB_fx(AA).. v_trans(AA) =l= v_trans_AA_sum * v_trans_UB(AA);
+v_trans_LB_fx(AA).. v_trans(AA) =g= v_trans_AA_sum * v_trans_LB(AA);

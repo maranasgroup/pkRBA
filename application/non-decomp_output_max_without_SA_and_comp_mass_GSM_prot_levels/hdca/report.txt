@@ -1,0 +1,5 @@
+stat	optimal
+vCarbonSources	-3.948765045455777
+carbonSlack	0
+vprod	0.358835168933974
+yield	0.12933110780468143

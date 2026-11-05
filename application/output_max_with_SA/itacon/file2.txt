@@ -1,0 +1,3 @@
+geneA	 15	 40
+geneB	 2e-2	 30
+geneD	 50	 50

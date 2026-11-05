@@ -1,0 +1,2 @@
+* file with settings updated by build_model scripts, to help with managing multiple SMs
+$setGlobal max_allowed_mito_proteome_allo_fraction 1

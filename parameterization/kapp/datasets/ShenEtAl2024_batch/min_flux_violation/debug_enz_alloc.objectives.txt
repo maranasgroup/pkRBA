@@ -1,0 +1,4 @@
+"prosynSlackSum"	 3.05325548420E+00
+"fluxSlackSum"	 3.83006078799E+02
+"fluxSum_j_NP"	 1.14611131827E+00
+"fluxSum"	 1.12861016902E+03

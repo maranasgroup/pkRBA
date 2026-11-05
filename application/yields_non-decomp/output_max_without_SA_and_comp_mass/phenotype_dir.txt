@@ -1,0 +1,4 @@
+* turn off use_membrane_SA_vivo(c) equations (from defaults.gms)
+use_membrane_SA_vivo(c) = 0;
+* turn off total protein mass fraction constraint (from defaults.gms)
+use_prot_mass_fraction_max_eqn(j) = 0;

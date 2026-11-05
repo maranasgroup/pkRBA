@@ -1,0 +1,8 @@
+* turn on use_membrane_SA_vivo(c) equations (from defaults.gms)
+use_membrane_SA_vivo(c) = 1;
+* set fMSA to 0.07 (from Carlson et al. (2026))
+fMSA(c) = 0.07;
+beta(c) = (fMSA(c) - delta(c)) * (c1(c) / theta(c));
+
+* turn off total protein mass fraction constraint (from defaults.gms)
+use_prot_mass_fraction_max_eqn(j) = 0;

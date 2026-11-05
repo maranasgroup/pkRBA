@@ -1,0 +1,3653 @@
+{
+    "17071": {
+        "default": "gcald",
+        "e": "gcald_e",
+        "m": "gcald_m",
+        "c": "gcald_c"
+    },
+    "61404": {
+        "default": "datp",
+        "c": "datp_c"
+    },
+    "16638": {
+        "default": "3mbald",
+        "e": "3mbald_e",
+        "c": "3mbald_c",
+        "m": "3mbald_m"
+    },
+    "57642": {
+        "default": "dhap",
+        "m": "dhap_m",
+        "rm": "dhap_rm",
+        "l": "dhap_l",
+        "c": "dhap_c"
+    },
+    "57967": {
+        "default": "adprib",
+        "n": "adprib_n"
+    },
+    "29171": {
+        "default": "trnaarg",
+        "c": "trnaarg_c"
+    },
+    "31725": {
+        "default": "iamac",
+        "c": "iamac_c",
+        "e": "iamac_e"
+    },
+    "175763": {
+        "default": "frdp",
+        "l": "frdp_l",
+        "m": "frdp_m",
+        "c": "frdp_c"
+    },
+    "15379": {
+        "default": "o2",
+        "e": "o2_e",
+        "rm": "o2_rm",
+        "r": "o2_r",
+        "c": "o2_c",
+        "en": "o2_en",
+        "x": "o2_x",
+        "m": "o2_m",
+        "n": "o2_n"
+    },
+    "58140": {
+        "default": "hpglu",
+        "c": "hpglu_c"
+    },
+    "17748": {
+        "default": "thymd",
+        "e": "thymd_e",
+        "c": "thymd_c"
+    },
+    "57461": {
+        "default": "leuktrB4",
+        "n": "leuktrB4_n",
+        "c": "leuktrB4_c"
+    },
+    "29157": {
+        "default": "glutrna",
+        "m": "glutrna_m",
+        "c": "glutrna_c"
+    },
+    "57600": {
+        "default": "gtp",
+        "c": "gtp_c",
+        "m": "gtp_m"
+    },
+    "16344": {
+        "default": "gudac",
+        "c": "gudac_c",
+        "n": "gudac_n"
+    },
+    "57527": {
+        "default": "gdpmann",
+        "g": "gdpmann_g",
+        "c": "gdpmann_c",
+        "rm": "gdpmann_rm"
+    },
+    "16040": {
+        "default": "csn",
+        "e": "csn_e",
+        "c": "csn_c"
+    },
+    "29184": {
+        "default": "trnaphe",
+        "m": "trnaphe_m",
+        "c": "trnaphe_c"
+    },
+    "58130": {
+        "default": "inoshp",
+        "c": "inoshp_c",
+        "n": "inoshp_n"
+    },
+    "18385": {
+        "default": "thm",
+        "c": "thm_c",
+        "e": "thm_e"
+    },
+    "58367": {
+        "default": "udpg",
+        "c": "udpg_c"
+    },
+    "16526": {
+        "default": "co2",
+        "e": "co2_e",
+        "n": "co2_n",
+        "r": "co2_r",
+        "rm": "co2_rm",
+        "m": "co2_m",
+        "mm": "co2_mm",
+        "vm": "co2_vm",
+        "c": "co2_c",
+        "x": "co2_x",
+        "gm": "co2_gm"
+    },
+    "60820": {
+        "default": "3ig3p",
+        "c": "3ig3p_c"
+    },
+    "43474": {
+        "default": "pi",
+        "m": "pi_m",
+        "rm": "pi_rm",
+        "e": "pi_e",
+        "gm": "pi_gm",
+        "vm": "pi_vm",
+        "v": "pi_v",
+        "c": "pi_c",
+        "en": "pi_en",
+        "mm": "pi_mm",
+        "r": "pi_r",
+        "g": "pi_g",
+        "n": "pi_n"
+    },
+    "57705": {
+        "default": "uacgam",
+        "v": "uacgam_v",
+        "n": "uacgam_n",
+        "r": "uacgam_r",
+        "c": "uacgam_c"
+    },
+    "17924": {
+        "default": "sbt__D",
+        "c": "sbt__D_c",
+        "e": "sbt__D_e"
+    },
+    "60344": {
+        "default": "pheme",
+        "m": "pheme_m",
+        "c": "pheme_c"
+    },
+    "57701": {
+        "default": "3psme",
+        "c": "3psme_c"
+    },
+    "16624": {
+        "default": "leutrna",
+        "c": "leutrna_c"
+    },
+    "52980": {
+        "default": "cer2A_26",
+        "m": "cer2A_26_m",
+        "g": "cer2A_26_g",
+        "r": "cer2A_26_r"
+    },
+    "57579": {
+        "default": "f6p",
+        "c": "f6p_c"
+    },
+    "31116": {
+        "default": "3hxphb",
+        "m": "3hxphb_m",
+        "c": "3hxphb_c"
+    },
+    "57540": {
+        "default": "nad",
+        "r": "nad_r",
+        "n": "nad_n",
+        "x": "nad_x",
+        "c": "nad_c",
+        "m": "nad_m",
+        "rm": "nad_rm"
+    },
+    "57384": {
+        "default": "malcoa",
+        "c": "malcoa_c",
+        "rm": "malcoa_rm",
+        "m": "malcoa_m"
+    },
+    "57774": {
+        "default": "alac",
+        "m": "alac_m",
+        "c": "alac_c"
+    },
+    "52974": {
+        "default": "ttccoa",
+        "r": "ttccoa_r",
+        "c": "ttccoa_c",
+        "en": "ttccoa_en",
+        "x": "ttccoa_x",
+        "l": "ttccoa_l",
+        "rm": "ttccoa_rm"
+    },
+    "32551": {
+        "default": "lys__L",
+        "c": "lys__L_c",
+        "m": "lys__L_m",
+        "e": "lys__L_e",
+        "v": "lys__L_v"
+    },
+    "58213": {
+        "default": "aacald",
+        "c": "aacald_c"
+    },
+    "24480": {
+        "default": "hemeO",
+        "m": "hemeO_m",
+        "c": "hemeO_c"
+    },
+    "16424": {
+        "default": "pacald",
+        "e": "pacald_e",
+        "c": "pacald_c",
+        "m": "pacald_m"
+    },
+    "456215": {
+        "default": "amp",
+        "l": "amp_l",
+        "n": "amp_n",
+        "x": "amp_x",
+        "m": "amp_m",
+        "c": "amp_c",
+        "rm": "amp_rm"
+    },
+    "17001": {
+        "default": "dhnpt",
+        "c": "dhnpt_c",
+        "m": "dhnpt_m"
+    },
+    "58324": {
+        "default": "N1aspmd",
+        "c": "N1aspmd_c"
+    },
+    "58349": {
+        "default": "nadp",
+        "x": "nadp_x",
+        "r": "nadp_r",
+        "rm": "nadp_rm",
+        "m": "nadp_m",
+        "c": "nadp_c",
+        "l": "nadp_l"
+    },
+    "52966": {
+        "default": "hxccoa",
+        "x": "hxccoa_x",
+        "c": "hxccoa_c",
+        "rm": "hxccoa_rm",
+        "l": "hxccoa_l",
+        "en": "hxccoa_en",
+        "r": "hxccoa_r"
+    },
+    "15378": {
+        "default": "h",
+        "g": "h_g",
+        "mm": "h_mm",
+        "r": "h_r",
+        "n": "h_n",
+        "rm": "h_rm",
+        "en": "h_en",
+        "x": "h_x",
+        "c": "h_c",
+        "v": "h_v",
+        "m": "h_m",
+        "gm": "h_gm",
+        "l": "h_l",
+        "vm": "h_vm",
+        "e": "h_e"
+    },
+    "17196": {
+        "default": "asn__L",
+        "m": "asn__L_m",
+        "c": "asn__L_c",
+        "e": "asn__L_e",
+        "v": "asn__L_v"
+    },
+    "57356": {
+        "default": "4hbzcoa",
+        "m": "4hbzcoa_m"
+    },
+    "29959": {
+        "default": "quln",
+        "c": "quln_c",
+        "m": "quln_m"
+    },
+    "15414": {
+        "default": "amet",
+        "n": "amet_n",
+        "e": "amet_e",
+        "rm": "amet_rm",
+        "m": "amet_m",
+        "c": "amet_c"
+    },
+    "18086": {
+        "default": "id3acald",
+        "m": "id3acald_m",
+        "c": "id3acald_c",
+        "e": "id3acald_e"
+    },
+    "57375": {
+        "default": "ddcacoa",
+        "x": "ddcacoa_x",
+        "rm": "ddcacoa_rm",
+        "l": "ddcacoa_l",
+        "c": "ddcacoa_c"
+    },
+    "16865": {
+        "default": "4abut",
+        "c": "4abut_c",
+        "e": "4abut_e",
+        "m": "4abut_m"
+    },
+    "17115": {
+        "default": "ser__L",
+        "c": "ser__L_c",
+        "e": "ser__L_e",
+        "m": "ser__L_m",
+        "rm": "ser__L_rm",
+        "r": "ser__L_r"
+    },
+    "16292": {
+        "default": "Dara14lac",
+        "c": "Dara14lac_c"
+    },
+    "53039": {
+        "default": "pren14dp",
+        "l": "pren14dp_l"
+    },
+    "29985": {
+        "default": "glu__L",
+        "m": "glu__L_m",
+        "n": "glu__L_n",
+        "e": "glu__L_e",
+        "c": "glu__L_c",
+        "x": "glu__L_x",
+        "v": "glu__L_v"
+    },
+    "58115": {
+        "default": "gmp",
+        "g": "gmp_g",
+        "c": "gmp_c"
+    },
+    "995": {
+        "default": "cmusa",
+        "c": "cmusa_c"
+    },
+    "15354": {
+        "default": "chol",
+        "c": "chol_c",
+        "e": "chol_e",
+        "en": "chol_en"
+    },
+    "60471": {
+        "default": "dudp",
+        "n": "dudp_n",
+        "c": "dudp_c"
+    },
+    "58525": {
+        "default": "prlp",
+        "c": "prlp_c"
+    },
+    "16199": {
+        "default": "urea",
+        "e": "urea_e",
+        "c": "urea_c"
+    },
+    "58509": {
+        "default": "1p3h5c",
+        "m": "1p3h5c_m",
+        "c": "1p3h5c_c"
+    },
+    "16828": {
+        "default": "trp__L",
+        "m": "trp__L_m",
+        "e": "trp__L_e",
+        "c": "trp__L_c"
+    },
+    "16189": {
+        "default": "so4",
+        "c": "so4_c",
+        "e": "so4_e"
+    },
+    "18262": {
+        "default": "ddca",
+        "x": "ddca_x",
+        "e": "ddca_e",
+        "l": "ddca_l",
+        "rm": "ddca_rm",
+        "c": "ddca_c"
+    },
+    "16643": {
+        "default": "met__L",
+        "c": "met__L_c",
+        "n": "met__L_n",
+        "e": "met__L_e",
+        "m": "met__L_m"
+    },
+    "1233": {
+        "default": "2ohph",
+        "m": "2ohph_m",
+        "c": "2ohph_c"
+    },
+    "18191": {
+        "default": "trdox",
+        "n": "trdox_n",
+        "x": "trdox_x",
+        "c": "trdox_c",
+        "m": "trdox_m"
+    },
+    "16182": {
+        "default": "2mbald",
+        "m": "2mbald_m",
+        "e": "2mbald_e",
+        "c": "2mbald_c"
+    },
+    "50571": {
+        "default": "3ohodcoa",
+        "x": "3ohodcoa_x",
+        "rm": "3ohodcoa_rm"
+    },
+    "17596": {
+        "default": "ins",
+        "c": "ins_c",
+        "e": "ins_e"
+    },
+    "52328": {
+        "default": "3odccoa",
+        "x": "3odccoa_x",
+        "rm": "3odccoa_rm"
+    },
+    "15377": {
+        "default": "h2o",
+        "g": "h2o_g",
+        "l": "h2o_l",
+        "e": "h2o_e",
+        "gm": "h2o_gm",
+        "vm": "h2o_vm",
+        "v": "h2o_v",
+        "x": "h2o_x",
+        "n": "h2o_n",
+        "mm": "h2o_mm",
+        "c": "h2o_c",
+        "en": "h2o_en",
+        "m": "h2o_m",
+        "rm": "h2o_rm",
+        "r": "h2o_r"
+    },
+    "17038": {
+        "default": "fecost",
+        "c": "fecost_c",
+        "e": "fecost_e",
+        "l": "fecost_l",
+        "rm": "fecost_rm"
+    },
+    "15428": {
+        "default": "gly",
+        "c": "gly_c",
+        "m": "gly_m",
+        "e": "gly_e",
+        "x": "gly_x"
+    },
+    "36655": {
+        "default": "glx",
+        "e": "glx_e",
+        "c": "glx_c",
+        "x": "glx_x"
+    },
+    "4167": {
+        "default": "glc__D",
+        "e": "glc__D_e",
+        "v": "glc__D_v",
+        "c": "glc__D_c",
+        "r": "glc__D_r"
+    },
+    "17158": {
+        "default": "mthgxl",
+        "c": "mthgxl_c"
+    },
+    "30864": {
+        "default": "dhor__S",
+        "c": "dhor__S_c"
+    },
+    "52979": {
+        "default": "cer2A_24",
+        "r": "cer2A_24_r",
+        "g": "cer2A_24_g",
+        "m": "cer2A_24_m"
+    },
+    "18041": {
+        "default": "lald__L",
+        "c": "lald__L_c"
+    },
+    "32372": {
+        "default": "hdcea",
+        "l": "hdcea_l",
+        "c": "hdcea_c",
+        "en": "hdcea_en",
+        "x": "hdcea_x",
+        "e": "hdcea_e",
+        "rm": "hdcea_rm",
+        "mm": "hdcea_mm"
+    },
+    "57385": {
+        "default": "tdcoa",
+        "x": "tdcoa_x",
+        "l": "tdcoa_l",
+        "c": "tdcoa_c",
+        "rm": "tdcoa_rm"
+    },
+    "58595": {
+        "default": "dgdp",
+        "n": "dgdp_n",
+        "c": "dgdp_c"
+    },
+    "11814": {
+        "default": "hmgcoa",
+        "c": "hmgcoa_c",
+        "m": "hmgcoa_m"
+    },
+    "50585": {
+        "default": "2mbac",
+        "e": "2mbac_e",
+        "c": "2mbac_c"
+    },
+    "57387": {
+        "default": "odecoa",
+        "mm": "odecoa_mm",
+        "l": "odecoa_l",
+        "rm": "odecoa_rm",
+        "c": "odecoa_c",
+        "x": "odecoa_x",
+        "m": "odecoa_m",
+        "r": "odecoa_r"
+    },
+    "53026": {
+        "default": "56hicte",
+        "n": "56hicte_n",
+        "c": "56hicte_c"
+    },
+    "58628": {
+        "default": "5dpmipp",
+        "c": "5dpmipp_c"
+    },
+    "58189": {
+        "default": "gdp",
+        "m": "gdp_m",
+        "c": "gdp_c",
+        "n": "gdp_n",
+        "g": "gdp_g",
+        "rm": "gdp_rm"
+    },
+    "30616": {
+        "default": "atp",
+        "en": "atp_en",
+        "c": "atp_c",
+        "r": "atp_r",
+        "rm": "atp_rm",
+        "gm": "atp_gm",
+        "l": "atp_l",
+        "n": "atp_n",
+        "m": "atp_m",
+        "vm": "atp_vm",
+        "x": "atp_x"
+    },
+    "17191": {
+        "default": "ile__L",
+        "m": "ile__L_m",
+        "e": "ile__L_e",
+        "v": "ile__L_v",
+        "c": "ile__L_c"
+    },
+    "16947": {
+        "default": "cit",
+        "c": "cit_c",
+        "x": "cit_x",
+        "m": "cit_m",
+        "e": "cit_e"
+    },
+    "33019": {
+        "default": "ppi",
+        "rm": "ppi_rm",
+        "x": "ppi_x",
+        "l": "ppi_l",
+        "m": "ppi_m",
+        "mm": "ppi_mm",
+        "c": "ppi_c",
+        "n": "ppi_n"
+    },
+    "58335": {
+        "default": "s17bp",
+        "c": "s17bp_c"
+    },
+    "57629": {
+        "default": "g1p",
+        "c": "g1p_c"
+    },
+    "16810": {
+        "default": "akg",
+        "x": "akg_x",
+        "m": "akg_m",
+        "n": "akg_n",
+        "c": "akg_c",
+        "e": "akg_e"
+    },
+    "60377": {
+        "default": "cmp",
+        "rm": "cmp_rm",
+        "m": "cmp_m",
+        "mm": "cmp_mm",
+        "c": "cmp_c"
+    },
+    "18097": {
+        "default": "ficytb5",
+        "r": "ficytb5_r"
+    },
+    "29806": {
+        "default": "fum",
+        "e": "fum_e",
+        "c": "fum_c",
+        "m": "fum_m"
+    },
+    "17144": {
+        "default": "caphis",
+        "c": "caphis_c"
+    },
+    "15824": {
+        "default": "fru",
+        "c": "fru_c",
+        "e": "fru_e"
+    },
+    "57454": {
+        "default": "10fthf",
+        "m": "10fthf_m",
+        "c": "10fthf_c"
+    },
+    "43120": {
+        "default": "dhptn",
+        "m": "dhptn_m",
+        "c": "dhptn_c"
+    },
+    "28528": {
+        "default": "3odcoa",
+        "x": "3odcoa_x"
+    },
+    "52970": {
+        "default": "q6h2",
+        "m": "q6h2_m",
+        "c": "q6h2_c"
+    },
+    "53047": {
+        "default": "pren6dp",
+        "l": "pren6dp_l",
+        "m": "pren6dp_m",
+        "c": "pren6dp_c"
+    },
+    "17968": {
+        "default": "but",
+        "x": "but_x",
+        "e": "but_e",
+        "c": "but_c"
+    },
+    "28808": {
+        "default": "mannan",
+        "r": "mannan_r",
+        "c": "mannan_c"
+    },
+    "17839": {
+        "default": "dhpt",
+        "m": "dhpt_m",
+        "c": "dhpt_c"
+    },
+    "50622": {
+        "default": "alpam",
+        "m": "alpam_m",
+        "c": "alpam_c"
+    },
+    "58439": {
+        "default": "udpgal",
+        "g": "udpgal_g",
+        "c": "udpgal_c"
+    },
+    "16347": {
+        "default": "crn",
+        "m": "crn_m",
+        "c": "crn_c",
+        "e": "crn_e",
+        "x": "crn_x"
+    },
+    "57597": {
+        "default": "glyc3p",
+        "rm": "glyc3p_rm",
+        "l": "glyc3p_l",
+        "m": "glyc3p_m",
+        "c": "glyc3p_c",
+        "mm": "glyc3p_mm"
+    },
+    "15708": {
+        "default": "acon_T",
+        "m": "acon_T_m",
+        "c": "acon_T_c"
+    },
+    "15603": {
+        "default": "leu__L",
+        "m": "leu__L_m",
+        "v": "leu__L_v",
+        "c": "leu__L_c",
+        "e": "leu__L_e"
+    },
+    "16929": {
+        "default": "g3pe",
+        "en": "g3pe_en"
+    },
+    "28726": {
+        "default": "3otdcoa",
+        "x": "3otdcoa_x"
+    },
+    "49000": {
+        "default": "2phetoh",
+        "e": "2phetoh_e",
+        "m": "2phetoh_m",
+        "c": "2phetoh_c"
+    },
+    "203600": {
+        "default": "mi145p",
+        "c": "mi145p_c",
+        "n": "mi145p_n"
+    },
+    "17895": {
+        "default": "tyr__L",
+        "m": "tyr__L_m",
+        "v": "tyr__L_v",
+        "x": "tyr__L_x",
+        "c": "tyr__L_c",
+        "e": "tyr__L_e"
+    },
+    "14649": {
+        "default": "nmn",
+        "x": "nmn_x",
+        "c": "nmn_c",
+        "e": "nmn_e",
+        "n": "nmn_n"
+    },
+    "18403": {
+        "default": "abt__L",
+        "e": "abt__L_e",
+        "c": "abt__L_c"
+    },
+    "45725": {
+        "default": "sprm",
+        "c": "sprm_c",
+        "e": "sprm_e",
+        "v": "sprm_v"
+    },
+    "29101": {
+        "default": "na1",
+        "c": "na1_c",
+        "e": "na1_e"
+    },
+    "53036": {
+        "default": "pren17dp",
+        "l": "pren17dp_l"
+    },
+    "17562": {
+        "default": "cytd",
+        "c": "cytd_c",
+        "e": "cytd_e"
+    },
+    "57566": {
+        "default": "dcmp",
+        "c": "dcmp_c"
+    },
+    "57349": {
+        "default": "3ohdcoa",
+        "x": "3ohdcoa_x",
+        "rm": "3ohdcoa_rm"
+    },
+    "17295": {
+        "default": "phe__L",
+        "m": "phe__L_m",
+        "c": "phe__L_c",
+        "e": "phe__L_e"
+    },
+    "17268": {
+        "default": "inost",
+        "e": "inost_e",
+        "rm": "inost_rm",
+        "c": "inost_c",
+        "n": "inost_n"
+    },
+    "58210": {
+        "default": "fmn",
+        "m": "fmn_m",
+        "e": "fmn_e",
+        "c": "fmn_c"
+    },
+    "57876": {
+        "default": "cdpea",
+        "rm": "cdpea_rm",
+        "c": "cdpea_c"
+    },
+    "17724": {
+        "default": "dmgly",
+        "n": "dmgly_n"
+    },
+    "16708": {
+        "default": "ade",
+        "c": "ade_c",
+        "e": "ade_e",
+        "m": "ade_m"
+    },
+    "17588": {
+        "default": "hcys__L",
+        "c": "hcys__L_c",
+        "m": "hcys__L_m",
+        "n": "hcys__L_n"
+    },
+    "52372": {
+        "default": "cer2B_26",
+        "r": "cer2B_26_r",
+        "m": "cer2B_26_m",
+        "g": "cer2B_26_g"
+    },
+    "57455": {
+        "default": "methf",
+        "c": "methf_c",
+        "m": "methf_m"
+    },
+    "52965": {
+        "default": "56dpmitp",
+        "c": "56dpmitp_c"
+    },
+    "30089": {
+        "default": "ac",
+        "m": "ac_m",
+        "c": "ac_c",
+        "e": "ac_e",
+        "n": "ac_n"
+    },
+    "29179": {
+        "default": "trnaser",
+        "c": "trnaser_c",
+        "m": "trnaser_m"
+    },
+    "52972": {
+        "default": "ergtrol",
+        "c": "ergtrol_c"
+    },
+    "17728": {
+        "default": "mmet",
+        "e": "mmet_e",
+        "c": "mmet_c"
+    },
+    "57939": {
+        "default": "sph1p",
+        "r": "sph1p_r"
+    },
+    "17432": {
+        "default": "sdhlam",
+        "m": "sdhlam_m",
+        "c": "sdhlam_c"
+    },
+    "18304": {
+        "default": "dnad",
+        "c": "dnad_c",
+        "n": "dnad_n"
+    },
+    "57499": {
+        "default": "2oxoadp",
+        "m": "2oxoadp_m",
+        "c": "2oxoadp_c"
+    },
+    "58145": {
+        "default": "agm",
+        "c": "agm_c"
+    },
+    "50606": {
+        "default": "db4p",
+        "c": "db4p_c"
+    },
+    "18107": {
+        "default": "xtsn",
+        "e": "xtsn_e",
+        "c": "xtsn_c"
+    },
+    "52326": {
+        "default": "3htccoa",
+        "rm": "3htccoa_rm"
+    },
+    "16452": {
+        "default": "oaa",
+        "m": "oaa_m",
+        "e": "oaa_e",
+        "c": "oaa_c",
+        "x": "oaa_x"
+    },
+    "57783": {
+        "default": "nadph",
+        "c": "nadph_c",
+        "m": "nadph_m",
+        "l": "nadph_l",
+        "x": "nadph_x",
+        "rm": "nadph_rm",
+        "r": "nadph_r"
+    },
+    "58243": {
+        "default": "aps",
+        "c": "aps_c"
+    },
+    "58579": {
+        "default": "f26bp",
+        "c": "f26bp_c"
+    },
+    "29991": {
+        "default": "asp__L",
+        "x": "asp__L_x",
+        "e": "asp__L_e",
+        "c": "asp__L_c",
+        "m": "asp__L_m",
+        "v": "asp__L_v"
+    },
+    "58380": {
+        "default": "psd5p",
+        "c": "psd5p_c"
+    },
+    "57817": {
+        "default": "sphgn",
+        "r": "sphgn_r"
+    },
+    "16870": {
+        "default": "g3pc",
+        "e": "g3pc_e",
+        "rm": "g3pc_rm",
+        "c": "g3pc_c",
+        "en": "g3pc_en"
+    },
+    "17742": {
+        "default": "4h2oglt",
+        "x": "4h2oglt_x",
+        "c": "4h2oglt_c",
+        "m": "4h2oglt_m"
+    },
+    "17754": {
+        "default": "glyc",
+        "c": "glyc_c",
+        "e": "glyc_e",
+        "l": "glyc_l"
+    },
+    "29182": {
+        "default": "trnatyr",
+        "c": "trnatyr_c",
+        "m": "trnatyr_m"
+    },
+    "17865": {
+        "default": "4mop",
+        "m": "4mop_m",
+        "c": "4mop_c"
+    },
+    "17750": {
+        "default": "glyb",
+        "n": "glyb_n"
+    },
+    "16905": {
+        "default": "fdp",
+        "c": "fdp_c"
+    },
+    "128769": {
+        "default": "ipdp",
+        "c": "ipdp_c",
+        "l": "ipdp_l",
+        "m": "ipdp_m"
+    },
+    "57287": {
+        "default": "coa",
+        "rm": "coa_rm",
+        "r": "coa_r",
+        "c": "coa_c",
+        "x": "coa_x",
+        "mm": "coa_mm",
+        "m": "coa_m",
+        "n": "coa_n",
+        "l": "coa_l"
+    },
+    "58759": {
+        "default": "6pgc",
+        "c": "6pgc_c"
+    },
+    "25629": {
+        "default": "ocdca",
+        "x": "ocdca_x",
+        "en": "ocdca_en",
+        "mm": "ocdca_mm",
+        "c": "ocdca_c",
+        "l": "ocdca_l",
+        "e": "ocdca_e",
+        "rm": "ocdca_rm"
+    },
+    "58756": {
+        "default": "ggdp",
+        "c": "ggdp_c",
+        "l": "ggdp_l"
+    },
+    "17536": {
+        "default": "alltt",
+        "c": "alltt_c",
+        "e": "alltt_e"
+    },
+    "16007": {
+        "default": "ch4s",
+        "c": "ch4s_c"
+    },
+    "60384": {
+        "default": "cer4_26",
+        "r": "cer4_26_r",
+        "g": "cer4_26_g",
+        "m": "cer4_26_m"
+    },
+    "18050": {
+        "default": "gln__L",
+        "n": "gln__L_n",
+        "v": "gln__L_v",
+        "c": "gln__L_c",
+        "e": "gln__L_e",
+        "m": "gln__L_m"
+    },
+    "16414": {
+        "default": "val__L",
+        "e": "val__L_e",
+        "m": "val__L_m",
+        "c": "val__L_c"
+    },
+    "52385": {
+        "default": "zym161",
+        "l": "zym161_l",
+        "rm": "zym161_rm",
+        "en": "zym161_en"
+    },
+    "17232": {
+        "default": "glu5sa",
+        "c": "glu5sa_c",
+        "m": "glu5sa_m"
+    },
+    "17917": {
+        "default": "L2aadp6sa",
+        "c": "L2aadp6sa_c"
+    },
+    "29169": {
+        "default": "trnaleu",
+        "c": "trnaleu_c"
+    },
+    "15832": {
+        "default": "allphn",
+        "c": "allphn_c"
+    },
+    "17119": {
+        "default": "fmettrna",
+        "m": "fmettrna_m",
+        "c": "fmettrna_c"
+    },
+    "29177": {
+        "default": "trnapro",
+        "c": "trnapro_c",
+        "m": "trnapro_m"
+    },
+    "53031": {
+        "default": "pren22dp",
+        "l": "pren22dp_l"
+    },
+    "17568": {
+        "default": "ura",
+        "c": "ura_c",
+        "e": "ura_e"
+    },
+    "62077": {
+        "default": "hx2coa",
+        "x": "hx2coa_x"
+    },
+    "46912": {
+        "default": "orn",
+        "m": "orn_m",
+        "c": "orn_c",
+        "e": "orn_e"
+    },
+    "16709": {
+        "default": "pydxn",
+        "c": "pydxn_c",
+        "e": "pydxn_e"
+    },
+    "17544": {
+        "default": "hco3",
+        "c": "hco3_c",
+        "e": "hco3_e",
+        "m": "hco3_m",
+        "n": "hco3_n"
+    },
+    "29167": {
+        "default": "trnacys",
+        "c": "trnacys_c"
+    },
+    "15971": {
+        "default": "his__L",
+        "e": "his__L_e",
+        "c": "his__L_c",
+        "m": "his__L_m",
+        "v": "his__L_v"
+    },
+    "16551": {
+        "default": "tre",
+        "c": "tre_c",
+        "e": "tre_e",
+        "v": "tre_v"
+    },
+    "57590": {
+        "default": "phom",
+        "c": "phom_c"
+    },
+    "15727": {
+        "default": "carn",
+        "c": "carn_c",
+        "m": "carn_m"
+    },
+    "21285": {
+        "default": "e4hglu",
+        "m": "e4hglu_m",
+        "c": "e4hglu_c",
+        "x": "e4hglu_x"
+    },
+    "18277": {
+        "default": "pran",
+        "c": "pran_c"
+    },
+    "15589": {
+        "default": "mal__L",
+        "e": "mal__L_e",
+        "x": "mal__L_x",
+        "m": "mal__L_m",
+        "c": "mal__L_c"
+    },
+    "15980": {
+        "default": "pant__R",
+        "c": "pant__R_c"
+    },
+    "16946": {
+        "default": "Lkynr",
+        "c": "Lkynr_c"
+    },
+    "18252": {
+        "default": "zymst",
+        "rm": "zymst_rm",
+        "e": "zymst_e",
+        "c": "zymst_c",
+        "en": "zymst_en",
+        "l": "zymst_l"
+    },
+    "14314": {
+        "default": "g6p",
+        "c": "g6p_c"
+    },
+    "52384": {
+        "default": "zym181",
+        "en": "zym181_en",
+        "rm": "zym181_rm",
+        "l": "zym181_l"
+    },
+    "15905": {
+        "default": "4ppan",
+        "c": "4ppan_c"
+    },
+    "28938": {
+        "default": "nh4",
+        "c": "nh4_c",
+        "m": "nh4_m",
+        "e": "nh4_e",
+        "x": "nh4_x"
+    },
+    "15699": {
+        "default": "hom__L",
+        "c": "hom__L_c",
+        "e": "hom__L_e"
+    },
+    "57307": {
+        "default": "pppg9",
+        "m": "pppg9_m",
+        "c": "pppg9_c"
+    },
+    "58297": {
+        "default": "gthox",
+        "c": "gthox_c",
+        "e": "gthox_e",
+        "m": "gthox_m"
+    },
+    "17380": {
+        "default": "hLkynr",
+        "c": "hLkynr_c"
+    },
+    "58639": {
+        "default": "5houdic",
+        "c": "5houdic_c"
+    },
+    "57771": {
+        "default": "uaccg",
+        "n": "uaccg_n"
+    },
+    "53064": {
+        "default": "4dpmipp",
+        "c": "4dpmipp_c"
+    },
+    "58394": {
+        "default": "2dda7p",
+        "m": "2dda7p_m",
+        "c": "2dda7p_c"
+    },
+    "52977": {
+        "default": "3ohxccoa",
+        "x": "3ohxccoa_x",
+        "rm": "3ohxccoa_rm"
+    },
+    "57865": {
+        "default": "ump",
+        "g": "ump_g",
+        "m": "ump_m",
+        "c": "ump_c",
+        "n": "ump_n"
+    },
+    "15361": {
+        "default": "pyr",
+        "c": "pyr_c",
+        "e": "pyr_e",
+        "m": "pyr_m",
+        "x": "pyr_x"
+    },
+    "15440": {
+        "default": "sql",
+        "r": "sql_r",
+        "c": "sql_c"
+    },
+    "16634": {
+        "default": "raffin",
+        "e": "raffin_e"
+    },
+    "58343": {
+        "default": "pap",
+        "c": "pap_c",
+        "m": "pap_m",
+        "e": "pap_e",
+        "x": "pap_x"
+    },
+    "57841": {
+        "default": "2mahmp",
+        "c": "2mahmp_c"
+    },
+    "17836": {
+        "default": "4abz",
+        "e": "4abz_e",
+        "c": "4abz_c",
+        "m": "4abz_m"
+    },
+    "16919": {
+        "default": "creat",
+        "n": "creat_n",
+        "c": "creat_c"
+    },
+    "13534": {
+        "default": "ACP",
+        "m": "ACP_m",
+        "c": "ACP_c"
+    },
+    "58384": {
+        "default": "15dap",
+        "c": "15dap_c"
+    },
+    "17310": {
+        "default": "pydx",
+        "c": "pydx_c"
+    },
+    "30807": {
+        "default": "ttdca",
+        "rm": "ttdca_rm",
+        "x": "ttdca_x",
+        "l": "ttdca_l",
+        "c": "ttdca_c",
+        "e": "ttdca_e"
+    },
+    "58245": {
+        "default": "damp",
+        "c": "damp_c"
+    },
+    "28718": {
+        "default": "athr__L",
+        "c": "athr__L_c"
+    },
+    "29158": {
+        "default": "asptrna",
+        "c": "asptrna_c",
+        "m": "asptrna_m"
+    },
+    "15967": {
+        "default": "trdrd",
+        "x": "trdrd_x",
+        "n": "trdrd_n",
+        "c": "trdrd_c",
+        "m": "trdrd_m"
+    },
+    "16335": {
+        "default": "adn",
+        "c": "adn_c",
+        "m": "adn_m",
+        "e": "adn_e"
+    },
+    "225237": {
+        "default": "peamn",
+        "c": "peamn_c"
+    },
+    "16988": {
+        "default": "rib__D",
+        "c": "rib__D_c",
+        "e": "rib__D_e"
+    },
+    "50626": {
+        "default": "hhxdcal",
+        "r": "hhxdcal_r"
+    },
+    "18105": {
+        "default": "f1p",
+        "c": "f1p_c"
+    },
+    "65088": {
+        "default": "docoscoa",
+        "x": "docoscoa_x",
+        "l": "docoscoa_l",
+        "en": "docoscoa_en",
+        "c": "docoscoa_c",
+        "rm": "docoscoa_rm"
+    },
+    "16047": {
+        "default": "lystrna",
+        "m": "lystrna_m",
+        "c": "lystrna_c"
+    },
+    "18022": {
+        "default": "tcynt",
+        "c": "tcynt_c",
+        "m": "tcynt_m"
+    },
+    "57464": {
+        "default": "xmp",
+        "c": "xmp_c"
+    },
+    "58165": {
+        "default": "camp",
+        "c": "camp_c"
+    },
+    "57761": {
+        "default": "pydam",
+        "c": "pydam_c"
+    },
+    "37563": {
+        "default": "ctp",
+        "rm": "ctp_rm",
+        "c": "ctp_c",
+        "mm": "ctp_mm",
+        "m": "ctp_m"
+    },
+    "17172": {
+        "default": "dgsn",
+        "e": "dgsn_e",
+        "c": "dgsn_c"
+    },
+    "58548": {
+        "default": "5mdru1p",
+        "c": "5mdru1p_c"
+    },
+    "31013": {
+        "default": "hxca",
+        "r": "hxca_r",
+        "rm": "hxca_rm",
+        "en": "hxca_en",
+        "l": "hxca_l"
+    },
+    "12952": {
+        "default": "galur",
+        "e": "galur_e"
+    },
+    "53048": {
+        "default": "pendp",
+        "l": "pendp_l",
+        "m": "pendp_m",
+        "c": "pendp_c"
+    },
+    "27668": {
+        "default": "3hddcoa",
+        "x": "3hddcoa_x"
+    },
+    "456216": {
+        "default": "adp",
+        "gm": "adp_gm",
+        "n": "adp_n",
+        "m": "adp_m",
+        "r": "adp_r",
+        "en": "adp_en",
+        "c": "adp_c",
+        "vm": "adp_vm",
+        "x": "adp_x"
+    },
+    "57288": {
+        "default": "accoa",
+        "c": "accoa_c",
+        "x": "accoa_x",
+        "n": "accoa_n",
+        "m": "accoa_m"
+    },
+    "18396": {
+        "default": "mpdol",
+        "c": "mpdol_c",
+        "g": "mpdol_g"
+    },
+    "52374": {
+        "default": "cer3_26",
+        "r": "cer3_26_r",
+        "g": "cer3_26_g"
+    },
+    "53034": {
+        "default": "pren19dp",
+        "l": "pren19dp_l"
+    },
+    "60449": {
+        "default": "mip2",
+        "r": "mip2_r",
+        "m": "mip2_m",
+        "c": "mip2_c"
+    },
+    "50619": {
+        "default": "LgluDala",
+        "c": "LgluDala_c"
+    },
+    "57986": {
+        "default": "ribflv",
+        "c": "ribflv_c",
+        "e": "ribflv_e",
+        "m": "ribflv_m"
+    },
+    "15991": {
+        "default": "ficytC",
+        "m": "ficytC_m",
+        "c": "ficytC_c"
+    },
+    "29174": {
+        "default": "trnaile",
+        "c": "trnaile_c",
+        "m": "trnaile_m"
+    },
+    "58478": {
+        "default": "fpram",
+        "c": "fpram_c"
+    },
+    "52962": {
+        "default": "cer1_26",
+        "r": "cer1_26_r",
+        "g": "cer1_26_g",
+        "m": "cer1_26_m"
+    },
+    "16892": {
+        "default": "4ahmmp",
+        "c": "4ahmmp_c"
+    },
+    "16680": {
+        "default": "ahcys",
+        "m": "ahcys_m",
+        "rm": "ahcys_rm",
+        "n": "ahcys_n",
+        "c": "ahcys_c"
+    },
+    "58053": {
+        "default": "imp",
+        "c": "imp_c"
+    },
+    "29033": {
+        "default": "fe2",
+        "en": "fe2_en",
+        "c": "fe2_c",
+        "m": "fe2_m",
+        "e": "fe2_e"
+    },
+    "29155": {
+        "default": "histrna",
+        "c": "histrna_c",
+        "m": "histrna_m"
+    },
+    "12936": {
+        "default": "gal",
+        "e": "gal_e",
+        "c": "gal_c"
+    },
+    "58069": {
+        "default": "cdp",
+        "n": "cdp_n",
+        "rm": "cdp_rm",
+        "c": "cdp_c"
+    },
+    "35146": {
+        "default": "3mop",
+        "c": "3mop_c",
+        "m": "3mop_m",
+        "e": "3mop_e"
+    },
+    "48945": {
+        "default": "2mbtoh",
+        "m": "2mbtoh_m",
+        "e": "2mbtoh_e",
+        "c": "2mbtoh_c"
+    },
+    "32544": {
+        "default": "nac",
+        "c": "nac_c",
+        "m": "nac_m",
+        "e": "nac_e"
+    },
+    "53065": {
+        "default": "6dpmipp",
+        "c": "6dpmipp_c"
+    },
+    "57955": {
+        "default": "6pgl",
+        "c": "6pgl_c"
+    },
+    "58937": {
+        "default": "thmpp",
+        "c": "thmpp_c",
+        "m": "thmpp_m",
+        "e": "thmpp_e"
+    },
+    "57895": {
+        "default": "mi1345p",
+        "n": "mi1345p_n"
+    },
+    "58475": {
+        "default": "aicar",
+        "c": "aicar_c"
+    },
+    "16240": {
+        "default": "h2o2",
+        "n": "h2o2_n",
+        "c": "h2o2_c",
+        "m": "h2o2_m",
+        "x": "h2o2_x"
+    },
+    "15676": {
+        "default": "alltn",
+        "c": "alltn_c",
+        "e": "alltn_e"
+    },
+    "57483": {
+        "default": "s7p",
+        "c": "s7p_c"
+    },
+    "36242": {
+        "default": "34hpp",
+        "x": "34hpp_x",
+        "c": "34hpp_c"
+    },
+    "18401": {
+        "default": "pac",
+        "c": "pac_c"
+    },
+    "58435": {
+        "default": "prfp",
+        "c": "prfp_c"
+    },
+    "40673": {
+        "default": "2aobut",
+        "c": "2aobut_c"
+    },
+    "11561": {
+        "default": "2dhp",
+        "c": "2dhp_c",
+        "m": "2dhp_m"
+    },
+    "17120": {
+        "default": "hxa",
+        "c": "hxa_c",
+        "e": "hxa_e",
+        "x": "hxa_x"
+    },
+    "29153": {
+        "default": "phetrna",
+        "m": "phetrna_m",
+        "c": "phetrna_c"
+    },
+    "57394": {
+        "default": "stcoa",
+        "x": "stcoa_x",
+        "c": "stcoa_c",
+        "rm": "stcoa_rm",
+        "l": "stcoa_l"
+    },
+    "57945": {
+        "default": "nadh",
+        "r": "nadh_r",
+        "rm": "nadh_rm",
+        "x": "nadh_x",
+        "m": "nadh_m",
+        "c": "nadh_c"
+    },
+    "16091": {
+        "default": "dolichol",
+        "c": "dolichol_c"
+    },
+    "58223": {
+        "default": "udp",
+        "g": "udp_g",
+        "r": "udp_r",
+        "v": "upd_v",
+        "n": "udp_n",
+        "c": "udp_c"
+    },
+    "61406": {
+        "default": "dc2coa",
+        "x": "dc2coa_x"
+    },
+    "58433": {
+        "default": "mi1p__D",
+        "r": "mi1p__D_r",
+        "c": "mi1p__D_c"
+    },
+    "16635": {
+        "default": "mettrna",
+        "m": "mettrna_m",
+        "c": "mettrna_c"
+    },
+    "57834": {
+        "default": "spmd",
+        "v": "spmd_v",
+        "c": "spmd_c",
+        "e": "spmd_e"
+    },
+    "57604": {
+        "default": "13dpg",
+        "c": "13dpg_c"
+    },
+    "53044": {
+        "default": "pren9dp",
+        "l": "pren9dp_l",
+        "c": "pren9dp_c"
+    },
+    "58248": {
+        "default": "23dpg",
+        "c": "23dpg_c"
+    },
+    "15809": {
+        "default": "dolmanp",
+        "r": "dolmanp_r"
+    },
+    "57328": {
+        "default": "dpcoa",
+        "m": "dpcoa_m",
+        "c": "dpcoa_c"
+    },
+    "16450": {
+        "default": "duri",
+        "c": "duri_c",
+        "e": "duri_e"
+    },
+    "17712": {
+        "default": "xan",
+        "c": "xan_c",
+        "e": "xan_e"
+    },
+    "52388": {
+        "default": "zym_int1A",
+        "c": "zym_int1A_c"
+    },
+    "58264": {
+        "default": "4abutn",
+        "c": "4abutn_c",
+        "m": "4abutn_m"
+    },
+    "16842": {
+        "default": "fald",
+        "c": "fald_c"
+    },
+    "23929": {
+        "default": "epist",
+        "e": "epist_e",
+        "rm": "epist_rm",
+        "l": "epist_l",
+        "c": "epist_c"
+    },
+    "16704": {
+        "default": "uri",
+        "c": "uri_c",
+        "e": "uri_e"
+    },
+    "15698": {
+        "default": "dcyt",
+        "c": "dcyt_c",
+        "e": "dcyt_e"
+    },
+    "17561": {
+        "default": "cys__L",
+        "e": "cys__L_e",
+        "c": "cys__L_c"
+    },
+    "58370": {
+        "default": "dttp",
+        "e": "dttp_e",
+        "c": "dttp_c"
+    },
+    "57925": {
+        "default": "gthrd",
+        "c": "gthrd_c",
+        "v": "gthrd_v",
+        "e": "gthrd_e",
+        "m": "gthrd_m"
+    },
+    "57286": {
+        "default": "aacoa",
+        "x": "aacoa_x",
+        "m": "aacoa_m",
+        "c": "aacoa_c"
+    },
+    "12071": {
+        "default": "mlthf",
+        "m": "mlthf_m",
+        "c": "mlthf_c"
+    },
+    "16750": {
+        "default": "gsn",
+        "m": "gsn_m",
+        "c": "gsn_c",
+        "e": "gsn_e"
+    },
+    "16436": {
+        "default": "cdpchol",
+        "c": "cdpchol_c",
+        "rm": "cdpchol_rm"
+    },
+    "58263": {
+        "default": "aprut",
+        "c": "aprut_c"
+    },
+    "16933": {
+        "default": "ergst",
+        "l": "ergst_l",
+        "r": "ergst_r",
+        "rm": "ergst_rm",
+        "e": "ergst_e",
+        "c": "ergst_c",
+        "en": "ergst_en"
+    },
+    "16977": {
+        "default": "ala__L",
+        "e": "ala__L_e",
+        "c": "ala__L_c",
+        "m": "ala__L_m"
+    },
+    "58589": {
+        "default": "pdx5p",
+        "c": "pdx5p_c"
+    },
+    "17214": {
+        "default": "3c4mop",
+        "c": "3c4mop_c",
+        "m": "3c4mop_m"
+    },
+    "27435": {
+        "default": "1mpyr",
+        "c": "1mpyr_c"
+    },
+    "17388": {
+        "default": "1pyr5c",
+        "c": "1pyr5c_c",
+        "m": "1pyr5c_m"
+    },
+    "62414": {
+        "default": "btamp",
+        "c": "btamp_c"
+    },
+    "15830": {
+        "default": "8aonn",
+        "c": "8aonn_c",
+        "e": "8aonn_e"
+    },
+    "16797": {
+        "default": "1mncam",
+        "c": "1mncam_c"
+    },
+    "62543": {
+        "default": "3otdcoa",
+        "rm": "3otdcoa_rm"
+    },
+    "12427": {
+        "default": "chito2pdol",
+        "c": "chito2pdol_c"
+    },
+    "16630": {
+        "default": "3dhsk",
+        "c": "3dhsk_c"
+    },
+    "35374": {
+        "default": "man1p",
+        "c": "man1p_c"
+    },
+    "16004": {
+        "default": "lac__D",
+        "c": "lac__D_c",
+        "m": "lac__D_m",
+        "e": "lac__D_e"
+    },
+    "597326": {
+        "default": "pydx5p",
+        "c": "pydx5p_c"
+    },
+    "57315": {
+        "default": "3hbcoa__R",
+        "x": "3hbcoa__R_x"
+    },
+    "57724": {
+        "default": "dctp",
+        "c": "dctp_c"
+    },
+    "29175": {
+        "default": "trnaglu",
+        "m": "trnaglu_m",
+        "c": "trnaglu_c"
+    },
+    "57553": {
+        "default": "gp4g",
+        "c": "gp4g_c"
+    },
+    "16521": {
+        "default": "lanost",
+        "c": "lanost_c",
+        "l": "lanost_l",
+        "rm": "lanost_rm",
+        "e": "lanost_e"
+    },
+    "29178": {
+        "default": "trnahis",
+        "c": "trnahis_c",
+        "m": "trnahis_m"
+    },
+    "28789": {
+        "default": "sbt__L",
+        "c": "sbt__L_c",
+        "e": "sbt__L_e"
+    },
+    "50569": {
+        "default": "ibutac",
+        "e": "ibutac_e",
+        "c": "ibutac_c"
+    },
+    "29161": {
+        "default": "tyrtrna",
+        "c": "tyrtrna_c",
+        "m": "tyrtrna_m"
+    },
+    "16651": {
+        "default": "lac__L",
+        "m": "lac__L_m",
+        "e": "lac__L_e",
+        "c": "lac__L_c"
+    },
+    "17013": {
+        "default": "dtmp",
+        "c": "dtmp_c"
+    },
+    "17600": {
+        "default": "hxdcal",
+        "r": "hxdcal_r",
+        "e": "hxdcal_e"
+    },
+    "53033": {
+        "default": "pren20dp",
+        "l": "pren20dp_l"
+    },
+    "58201": {
+        "default": "dmlz",
+        "c": "dmlz_c"
+    },
+    "17029": {
+        "default": "chtn",
+        "e": "chtn_e",
+        "c": "chtn_c"
+    },
+    "11805": {
+        "default": "3hmp",
+        "m": "3hmp_m",
+        "c": "3hmp_c"
+    },
+    "17256": {
+        "default": "dad_2",
+        "e": "dad_2_e",
+        "c": "dad_2_c"
+    },
+    "47942": {
+        "default": "pan4p",
+        "c": "pan4p_c",
+        "m": "pan4p_m",
+        "x": "pan4p_x"
+    },
+    "18366": {
+        "default": "argtrna",
+        "c": "argtrna_c"
+    },
+    "17140": {
+        "default": "xylu__D",
+        "c": "xylu__D_c"
+    },
+    "58426": {
+        "default": "fgam",
+        "c": "fgam_c"
+    },
+    "57733": {
+        "default": "mi13456p",
+        "c": "mi13456p_c",
+        "n": "mi13456p_n"
+    },
+    "60448": {
+        "default": "manmi1p",
+        "r": "manmi1p_r",
+        "m": "manmi1p_m",
+        "c": "manmi1p_c"
+    },
+    "53027": {
+        "default": "leuktrB4__6E8Z",
+        "n": "leuktrB4__6E8Z_n",
+        "c": "leuktrB4__6E8Z_c"
+    },
+    "25646": {
+        "default": "octa",
+        "c": "octa_c",
+        "e": "octa_e",
+        "x": "octa_x"
+    },
+    "57602": {
+        "default": "2ahhmd",
+        "m": "2ahhmd_m",
+        "c": "2ahhmd_c"
+    },
+    "30031": {
+        "default": "succ",
+        "m": "succ_m",
+        "e": "succ_e",
+        "c": "succ_c"
+    },
+    "15837": {
+        "default": "iamoh",
+        "m": "iamoh_m",
+        "c": "iamoh_c",
+        "e": "iamoh_e"
+    },
+    "48943": {
+        "default": "ibtald",
+        "e": "ibtald_e",
+        "m": "ibtald_m",
+        "c": "ibtald_c"
+    },
+    "7896": {
+        "default": "hdca",
+        "l": "hdca_l",
+        "e": "hdca_e",
+        "rm": "hdca_rm",
+        "c": "hdca_c",
+        "x": "hdca_x",
+        "en": "hdca_en",
+        "mm": "hdca_mm"
+    },
+    "17640": {
+        "default": "indpyr",
+        "c": "indpyr_c"
+    },
+    "46970": {
+        "default": "phsph1p",
+        "r": "phsph1p_r"
+    },
+    "29265": {
+        "default": "asntrna",
+        "c": "asntrna_c",
+        "m": "asntrna_m"
+    },
+    "32682": {
+        "default": "arg__L",
+        "m": "arg__L_m",
+        "c": "arg__L_c",
+        "e": "arg__L_e"
+    },
+    "18364": {
+        "default": "14dmlanost",
+        "c": "14dmlanost_c",
+        "e": "14dmlanost_e"
+    },
+    "326268": {
+        "default": "ptrc",
+        "v": "ptrc_v",
+        "c": "ptrc_c",
+        "e": "ptrc_e"
+    },
+    "18407": {
+        "default": "cyan",
+        "c": "cyan_c",
+        "m": "cyan_m"
+    },
+    "31988": {
+        "default": "pheac",
+        "e": "pheac_e",
+        "c": "pheac_c"
+    },
+    "17890": {
+        "default": "ind3eth",
+        "c": "ind3eth_c",
+        "m": "ind3eth_m",
+        "e": "ind3eth_e"
+    },
+    "36464": {
+        "default": "mev__R",
+        "c": "mev__R_c",
+        "e": "mev__R_e"
+    },
+    "20506": {
+        "default": "thf",
+        "m": "thf_m",
+        "c": "thf_c"
+    },
+    "28067": {
+        "default": "mmpdol",
+        "g": "mmpdol_g"
+    },
+    "16490": {
+        "default": "amob",
+        "c": "amob_c"
+    },
+    "58672": {
+        "default": "L2aadp",
+        "c": "L2aadp_c"
+    },
+    "36159": {
+        "default": "ppp9",
+        "m": "ppp9_m",
+        "c": "ppp9_c"
+    },
+    "35129": {
+        "default": "3c3hmp",
+        "c": "3c3hmp_c",
+        "m": "3c3hmp_m",
+        "e": "3c3hmp_e"
+    },
+    "57720": {
+        "default": "r1p",
+        "m": "r1p_m",
+        "c": "r1p_c"
+    },
+    "30823": {
+        "default": "ocdcea",
+        "en": "ocdcea_en",
+        "x": "ocdcea_x",
+        "c": "ocdcea_c",
+        "rm": "ocdcea_rm",
+        "e": "ocdcea_e",
+        "l": "ocdcea_l",
+        "mm": "ocdcea_mm"
+    },
+    "27868": {
+        "default": "3oddcoa",
+        "x": "3oddcoa_x"
+    },
+    "52329": {
+        "default": "3otccoa",
+        "x": "3otccoa_x",
+        "rm": "3otccoa_rm"
+    },
+    "1109": {
+        "default": "2hp6mp",
+        "m": "2hp6mp_m",
+        "c": "2hp6mp_c"
+    },
+    "16139": {
+        "default": "apoACP",
+        "c": "apoACP_c",
+        "m": "apoACP_m"
+    },
+    "15891": {
+        "default": "taur",
+        "c": "taur_c",
+        "e": "taur_e"
+    },
+    "61405": {
+        "default": "td2coa",
+        "rm": "td2coa_rm",
+        "x": "td2coa_x"
+    },
+    "58274": {
+        "default": "glu5p",
+        "c": "glu5p_c"
+    },
+    "57443": {
+        "default": "ametam",
+        "c": "ametam_c"
+    },
+    "29186": {
+        "default": "trnaasp",
+        "c": "trnaasp_c"
+    },
+    "16796": {
+        "default": "melatn",
+        "n": "melatn_n"
+    },
+    "58277": {
+        "default": "dhDara14lac",
+        "c": "dhDara14lac_c"
+    },
+    "32814": {
+        "default": "cbasp",
+        "c": "cbasp_c"
+    },
+    "52389": {
+        "default": "zym_int1C",
+        "c": "zym_int1C_c"
+    },
+    "29123": {
+        "default": "acg5sa",
+        "m": "acg5sa_m",
+        "c": "acg5sa_c"
+    },
+    "57589": {
+        "default": "acrn",
+        "c": "acrn_c",
+        "x": "acrn_x",
+        "m": "acrn_m"
+    },
+    "57379": {
+        "default": "pmtcoa",
+        "x": "pmtcoa_x",
+        "c": "pmtcoa_c",
+        "r": "pmtcoa_r",
+        "rm": "pmtcoa_rm",
+        "l": "pmtcoa_l",
+        "m": "pmtcoa_m"
+    },
+    "58307": {
+        "default": "fadh2",
+        "m": "fadh2_m",
+        "c": "fadh2_c"
+    },
+    "57766": {
+        "default": "imacp",
+        "c": "imacp_c"
+    },
+    "16763": {
+        "default": "2obut",
+        "m": "2obut_m",
+        "c": "2obut_c",
+        "x": "2obut_x"
+    },
+    "57627": {
+        "default": "mi1456p",
+        "n": "mi1456p_n"
+    },
+    "58451": {
+        "default": "pyam5p",
+        "c": "pyam5p_c"
+    },
+    "61402": {
+        "default": "itp",
+        "c": "itp_c"
+    },
+    "58146": {
+        "default": "5pmev",
+        "c": "5pmev_c"
+    },
+    "18608": {
+        "default": "5mthf",
+        "c": "5mthf_c"
+    },
+    "16857": {
+        "default": "thr__L",
+        "c": "thr__L_c",
+        "m": "thr__L_m",
+        "e": "thr__L_e"
+    },
+    "61540": {
+        "default": "hdcoa",
+        "c": "hdcoa_c",
+        "x": "hdcoa_x",
+        "l": "hdcoa_l",
+        "mm": "hdcoa_mm",
+        "rm": "hdcoa_rm",
+        "m": "hdcoa_m",
+        "r": "hdcoa_r"
+    },
+    "29156": {
+        "default": "glytrna",
+        "c": "glytrna_c"
+    },
+    "17813": {
+        "default": "44mctr",
+        "c": "44mctr_c"
+    },
+    "58228": {
+        "default": "cbp",
+        "c": "cbp_c",
+        "m": "cbp_m"
+    },
+    "46961": {
+        "default": "psphings",
+        "r": "psphings_r"
+    },
+    "27809": {
+        "default": "4hglusa",
+        "m": "4hglusa_m",
+        "c": "4hglusa_c"
+    },
+    "57586": {
+        "default": "btn",
+        "e": "btn_e",
+        "c": "btn_c"
+    },
+    "52381": {
+        "default": "hdd2coa",
+        "x": "hdd2coa_x"
+    },
+    "58017": {
+        "default": "prpp",
+        "m": "prpp_m",
+        "c": "prpp_c"
+    },
+    "18249": {
+        "default": "ergtetrol",
+        "e": "ergtetrol_e",
+        "r": "ergtetrol_r",
+        "c": "ergtetrol_c"
+    },
+    "17957": {
+        "default": "4mhetz",
+        "c": "4mhetz_c"
+    },
+    "29172": {
+        "default": "trnaasn",
+        "c": "trnaasn_c",
+        "m": "trnaasn_m"
+    },
+    "1949": {
+        "default": "4mzym",
+        "c": "4mzym_c"
+    },
+    "16446": {
+        "default": "acgam1p",
+        "c": "acgam1p_c"
+    },
+    "57688": {
+        "default": "Sfglutth",
+        "c": "Sfglutth_c"
+    },
+    "28330": {
+        "default": "4hthr",
+        "c": "4hthr_c"
+    },
+    "15728": {
+        "default": "4gudbutn",
+        "c": "4gudbutn_c"
+    },
+    "246422": {
+        "default": "dump",
+        "c": "dump_c",
+        "n": "dump_n"
+    },
+    "50570": {
+        "default": "od2coa",
+        "x": "od2coa_x"
+    },
+    "18344": {
+        "default": "kynate",
+        "c": "kynate_c"
+    },
+    "57980": {
+        "default": "hisp",
+        "c": "hisp_c"
+    },
+    "16214": {
+        "default": "dolp",
+        "c": "dolp_c",
+        "r": "dolp_r"
+    },
+    "58027": {
+        "default": "g3p",
+        "c": "g3p_c"
+    },
+    "57308": {
+        "default": "uppg3",
+        "c": "uppg3_c"
+    },
+    "29183": {
+        "default": "trnaval",
+        "c": "trnaval_c",
+        "m": "trnaval_m"
+    },
+    "52957": {
+        "default": "25dhtpp",
+        "c": "25dhtpp_c"
+    },
+    "27596": {
+        "default": "NPmehis",
+        "c": "NPmehis_c"
+    },
+    "61382": {
+        "default": "ditp",
+        "c": "ditp_c"
+    },
+    "17137": {
+        "default": "so3",
+        "e": "so3_e",
+        "m": "so3_m",
+        "c": "so3_c"
+    },
+    "58702": {
+        "default": "pep",
+        "n": "pep_n",
+        "c": "pep_c",
+        "m": "pep_m"
+    },
+    "17309": {
+        "default": "pectin",
+        "e": "pectin_e"
+    },
+    "29160": {
+        "default": "iletrna",
+        "c": "iletrna_c",
+        "m": "iletrna_m"
+    },
+    "57451": {
+        "default": "dhf",
+        "c": "dhf_c",
+        "m": "dhf_m"
+    },
+    "16928": {
+        "default": "focytC",
+        "m": "focytC_m",
+        "c": "focytC_c"
+    },
+    "17368": {
+        "default": "hxan",
+        "e": "hxan_e",
+        "c": "hxan_c"
+    },
+    "29748": {
+        "default": "chor",
+        "c": "chor_c"
+    },
+    "58938": {
+        "default": "thmtp",
+        "c": "thmtp_c"
+    },
+    "60052": {
+        "default": "sheme",
+        "c": "sheme_c"
+    },
+    "50591": {
+        "default": "4mzym4c",
+        "c": "4mzym4c_c"
+    },
+    "58421": {
+        "default": "5aprbu",
+        "c": "5aprbu_c"
+    },
+    "17266": {
+        "default": "srb__L",
+        "c": "srb__L_c",
+        "e": "srb__L_e"
+    },
+    "28816": {
+        "default": "drib",
+        "c": "drib_c",
+        "e": "drib_e"
+    },
+    "17306": {
+        "default": "malt",
+        "en": "malt_en",
+        "e": "malt_e"
+    },
+    "29164": {
+        "default": "valtrna",
+        "m": "valtrna_m",
+        "c": "valtrna_c"
+    },
+    "58533": {
+        "default": "5mdr1p",
+        "c": "5mdr1p_c"
+    },
+    "58296": {
+        "default": "4mpetz",
+        "c": "4mpetz_c"
+    },
+    "17981": {
+        "default": "acser",
+        "c": "acser_c"
+    },
+    "58614": {
+        "default": "25drapp",
+        "c": "25drapp_c"
+    },
+    "17694": {
+        "default": "dhlam",
+        "m": "dhlam_m",
+        "c": "dhlam_c"
+    },
+    "27470": {
+        "default": "fol",
+        "c": "fol_c",
+        "e": "fol_e"
+    },
+    "15740": {
+        "default": "for",
+        "m": "for_m",
+        "e": "for_e",
+        "c": "for_c"
+    },
+    "16087": {
+        "default": "icit",
+        "m": "icit_m",
+        "c": "icit_c",
+        "x": "icit_x"
+    },
+    "62620": {
+        "default": "hxcoa",
+        "x": "hxcoa_x"
+    },
+    "15621": {
+        "default": "4hoxpacd",
+        "c": "4hoxpacd_c"
+    },
+    "30249": {
+        "default": "Lfmkynr",
+        "c": "Lfmkynr_c"
+    },
+    "15343": {
+        "default": "acald",
+        "m": "acald_m",
+        "c": "acald_c",
+        "e": "acald_e"
+    },
+    "58247": {
+        "default": "g6p_B",
+        "c": "g6p_B_c"
+    },
+    "9533": {
+        "default": "thmmp",
+        "e": "thmmp_e",
+        "c": "thmmp_c"
+    },
+    "58351": {
+        "default": "sch",
+        "c": "sch_c"
+    },
+    "17549": {
+        "default": "5aop",
+        "e": "5aop_e",
+        "c": "5aop_c",
+        "m": "5aop_m"
+    },
+    "58613": {
+        "default": "2cpr5p",
+        "c": "2cpr5p_c"
+    },
+    "18051": {
+        "default": "aspsa",
+        "c": "aspsa_c"
+    },
+    "27466": {
+        "default": "3htdcoa",
+        "x": "3htdcoa_x"
+    },
+    "16024": {
+        "default": "man",
+        "e": "man_e",
+        "c": "man_c",
+        "g": "man_g"
+    },
+    "30854": {
+        "default": "ind3ac",
+        "m": "ind3ac_m",
+        "c": "ind3ac_c"
+    },
+    "37671": {
+        "default": "13BDglucan",
+        "e": "13BDglucan_e",
+        "en": "13BDglucan_en",
+        "c": "13BDglucan_c"
+    },
+    "15873": {
+        "default": "gam6p",
+        "c": "gam6p_c",
+        "e": "gam6p_e"
+    },
+    "29034": {
+        "default": "fe3",
+        "e": "fe3_e",
+        "c": "fe3_c",
+        "en": "fe3_en"
+    },
+    "4047": {
+        "default": "cgly",
+        "c": "cgly_c"
+    },
+    "17108": {
+        "default": "arab__D",
+        "e": "arab__D_e",
+        "c": "arab__D_c"
+    },
+    "62614": {
+        "default": "3htdcoa",
+        "rm": "3htdcoa_rm"
+    },
+    "58424": {
+        "default": "prbatp",
+        "c": "prbatp_c"
+    },
+    "57567": {
+        "default": "dcamp",
+        "c": "dcamp_c"
+    },
+    "57502": {
+        "default": "nicrnt",
+        "c": "nicrnt_c",
+        "m": "nicrnt_m"
+    },
+    "53032": {
+        "default": "pren21dp",
+        "l": "pren21dp_l"
+    },
+    "30407": {
+        "default": "4pasp",
+        "c": "4pasp_c"
+    },
+    "28087": {
+        "default": "glycogen",
+        "v": "glycogen_v",
+        "c": "glycogen_c"
+    },
+    "29162": {
+        "default": "sertrna",
+        "c": "sertrna_c",
+        "m": "sertrna_m"
+    },
+    "16897": {
+        "default": "e4p",
+        "m": "e4p_m",
+        "c": "e4p_c"
+    },
+    "7725": {
+        "default": "ocACP",
+        "m": "ocACP_m",
+        "c": "ocACP_c"
+    },
+    "29103": {
+        "default": "k",
+        "e": "k_e",
+        "c": "k_c"
+    },
+    "57463": {
+        "default": "leuktrA4",
+        "n": "leuktrA4_n",
+        "c": "leuktrA4_c"
+    },
+    "52386": {
+        "default": "zym_int2",
+        "c": "zym_int2_c"
+    },
+    "16958": {
+        "default": "ala_B",
+        "c": "ala_B_c"
+    },
+    "58039": {
+        "default": "nmptrc",
+        "c": "nmptrc_c"
+    },
+    "50583": {
+        "default": "3hodcoa",
+        "x": "3hodcoa_x"
+    },
+    "53045": {
+        "default": "pren8dp",
+        "l": "pren8dp_l"
+    },
+    "15527": {
+        "default": "icoscoa",
+        "rm": "icoscoa_rm",
+        "c": "icoscoa_c",
+        "x": "icoscoa_x",
+        "en": "icoscoa_en",
+        "l": "icoscoa_l"
+    },
+    "52975": {
+        "default": "hxc2coa",
+        "x": "hxc2coa_x",
+        "rm": "hxc2coa_rm"
+    },
+    "24479": {
+        "default": "hemeA",
+        "c": "hemeA_c",
+        "m": "hemeA_m"
+    },
+    "15441": {
+        "default": "Ssq23epx",
+        "r": "Ssq23epx_r",
+        "c": "Ssq23epx_c"
+    },
+    "16235": {
+        "default": "gua",
+        "m": "gua_m",
+        "c": "gua_c",
+        "e": "gua_e"
+    },
+    "58212": {
+        "default": "dutp",
+        "c": "dutp_c"
+    },
+    "16543": {
+        "default": "acorn",
+        "m": "acorn_m",
+        "c": "acorn_c"
+    },
+    "58320": {
+        "default": "aact",
+        "c": "aact_c"
+    },
+    "15570": {
+        "default": "ala__D",
+        "c": "ala__D_c",
+        "x": "ala__D_x"
+    },
+    "58101": {
+        "default": "N1sprm",
+        "c": "N1sprm_c"
+    },
+    "57784": {
+        "default": "cmaphis",
+        "c": "cmaphis_c"
+    },
+    "1235": {
+        "default": "2omph",
+        "m": "2omph_m",
+        "c": "2omph_c"
+    },
+    "15936": {
+        "default": "xyl__D",
+        "e": "xyl__D_e",
+        "c": "xyl__D_c"
+    },
+    "16982": {
+        "default": "btd",
+        "c": "btd_c",
+        "e": "btd_e"
+    },
+    "17203": {
+        "default": "pro__L",
+        "e": "pro__L_e",
+        "c": "pro__L_c",
+        "m": "pro__L_m"
+    },
+    "53035": {
+        "default": "pren18dp",
+        "l": "pren18dp_l"
+    },
+    "53040": {
+        "default": "pren13dp",
+        "l": "pren13dp_l"
+    },
+    "57457": {
+        "default": "5fthf",
+        "c": "5fthf_c",
+        "e": "5fthf_e"
+    },
+    "29934": {
+        "default": "pphn",
+        "c": "pphn_c"
+    },
+    "16723": {
+        "default": "2kmb",
+        "c": "2kmb_c"
+    },
+    "53046": {
+        "default": "pren7dp",
+        "l": "pren7dp_l"
+    },
+    "32364": {
+        "default": "3dhq",
+        "c": "3dhq_c"
+    },
+    "58516": {
+        "default": "gam1p",
+        "c": "gam1p_c"
+    },
+    "15927": {
+        "default": "rnam",
+        "c": "rnam_c"
+    },
+    "46645": {
+        "default": "ibutoh",
+        "c": "ibutoh_c",
+        "m": "ibutoh_m",
+        "e": "ibutoh_e"
+    },
+    "17855": {
+        "default": "tag",
+        "rm": "tag_rm",
+        "c": "tag_c",
+        "l": "tag_l"
+    },
+    "58299": {
+        "default": "3dsphgn",
+        "r": "3dsphgn_r"
+    },
+    "58365": {
+        "default": "4gudbd",
+        "c": "4gudbd_c"
+    },
+    "58339": {
+        "default": "paps",
+        "c": "paps_c"
+    },
+    "58369": {
+        "default": "dtdp",
+        "c": "dtdp_c"
+    },
+    "57603": {
+        "default": "etha",
+        "e": "etha_e",
+        "c": "etha_c"
+    },
+    "17821": {
+        "default": "thym",
+        "c": "thym_c"
+    },
+    "60032": {
+        "default": "uaGgla",
+        "c": "uaGgla_c"
+    },
+    "17151": {
+        "default": "xylt",
+        "c": "xylt_c",
+        "e": "xylt_e"
+    },
+    "35121": {
+        "default": "3c2hmp",
+        "c": "3c2hmp_c"
+    },
+    "57623": {
+        "default": "dmpp",
+        "c": "dmpp_c"
+    },
+    "29173": {
+        "default": "trnamet",
+        "c": "trnamet_c",
+        "m": "trnamet_m"
+    },
+    "16236": {
+        "default": "etoh",
+        "c": "etoh_c",
+        "e": "etoh_e",
+        "m": "etoh_m"
+    },
+    "58272": {
+        "default": "3pg",
+        "c": "3pg_c"
+    },
+    "52973": {
+        "default": "ergst3glc",
+        "c": "ergst3glc_c"
+    },
+    "27689": {
+        "default": "dca",
+        "x": "dca_x",
+        "c": "dca_c",
+        "e": "dca_e"
+    },
+    "30849": {
+        "default": "arab__L",
+        "c": "arab__L_c",
+        "e": "arab__L_e"
+    },
+    "15642": {
+        "default": "4a_hthptn",
+        "m": "4a_hthptn_m",
+        "c": "4a_hthptn_c"
+    },
+    "30904": {
+        "default": "hicit",
+        "m": "hicit_m",
+        "c": "hicit_c"
+    },
+    "16383": {
+        "default": "acon_C",
+        "m": "acon_C_m",
+        "c": "acon_C_c"
+    },
+    "58444": {
+        "default": "g3pi",
+        "e": "g3pi_e",
+        "en": "g3pi_en",
+        "c": "g3pi_c"
+    },
+    "62242": {
+        "default": "oc2coa",
+        "x": "oc2coa_x"
+    },
+    "18110": {
+        "default": "3php",
+        "c": "3php_c"
+    },
+    "29032": {
+        "default": "pnto__R",
+        "c": "pnto__R_c",
+        "e": "pnto__R_e"
+    },
+    "57845": {
+        "default": "hmbil",
+        "c": "hmbil_c"
+    },
+    "16349": {
+        "default": "citr__L",
+        "c": "citr__L_c"
+    },
+    "16494": {
+        "default": "lipoate",
+        "m": "lipoate_m",
+        "c": "lipoate_c"
+    },
+    "29159": {
+        "default": "trptrna",
+        "c": "trptrna_c",
+        "m": "trptrna_m"
+    },
+    "57371": {
+        "default": "btcoa",
+        "x": "btcoa_x"
+    },
+    "57538": {
+        "default": "orot5p",
+        "c": "orot5p_c"
+    },
+    "49050": {
+        "default": "urdglyc",
+        "c": "urdglyc_c"
+    },
+    "58354": {
+        "default": "4ampm",
+        "c": "4ampm_c"
+    },
+    "52373": {
+        "default": "cer3_24",
+        "r": "cer3_24_r",
+        "m": "cer3_24_m",
+        "g": "cer3_24_g"
+    },
+    "57474": {
+        "default": "lgt__S",
+        "c": "lgt__S_c"
+    },
+    "36457": {
+        "default": "hcit",
+        "m": "hcit_m",
+        "n": "hcit_n",
+        "c": "hcit_c"
+    },
+    "57951": {
+        "default": "saccrp__L",
+        "c": "saccrp__L_c"
+    },
+    "36257": {
+        "default": "tchola",
+        "v": "tchola_v",
+        "c": "tchola_c"
+    },
+    "29181": {
+        "default": "trnatrp",
+        "m": "trnatrp_m",
+        "c": "trnatrp_c"
+    },
+    "1879": {
+        "default": "4hphe",
+        "c": "4hphe_c"
+    },
+    "27750": {
+        "default": "etac",
+        "e": "etac_e",
+        "c": "etac_c"
+    },
+    "71412": {
+        "default": "od2coa",
+        "rm": "od2coa_rm"
+    },
+    "17879": {
+        "default": "4hbz",
+        "m": "4hbz_m",
+        "c": "4hbz_c"
+    },
+    "28997": {
+        "default": "din",
+        "e": "din_e",
+        "c": "din_c"
+    },
+    "57309": {
+        "default": "cpppg3",
+        "c": "cpppg3_c"
+    },
+    "16288": {
+        "default": "achms",
+        "c": "achms_c"
+    },
+    "52976": {
+        "default": "3hhxccoa__R",
+        "x": "3hhxccoa__R_x",
+        "rm": "3hhxccoa__R_rm"
+    },
+    "29152": {
+        "default": "cystrna",
+        "c": "cystrna_c"
+    },
+    "58207": {
+        "default": "mhpglu",
+        "c": "mhpglu_c"
+    },
+    "58180": {
+        "default": "argn__L",
+        "c": "argn__L_c"
+    },
+    "58174": {
+        "default": "hacon_C",
+        "m": "hacon_C_m",
+        "c": "hacon_C_c"
+    },
+    "46398": {
+        "default": "utp",
+        "m": "utp_m",
+        "c": "utp_c"
+    },
+    "30839": {
+        "default": "orot",
+        "c": "orot_c"
+    },
+    "52961": {
+        "default": "cer1_24",
+        "g": "cer1_24_g",
+        "m": "cer1_24_m",
+        "r": "cer1_24_r"
+    },
+    "15686": {
+        "default": "actn__R",
+        "c": "actn__R_c"
+    },
+    "59457": {
+        "default": "prbamp",
+        "c": "prbamp_c"
+    },
+    "58467": {
+        "default": "fprica",
+        "c": "fprica_c"
+    },
+    "17378": {
+        "default": "glyald",
+        "c": "glyald_c"
+    },
+    "58564": {
+        "default": "5aizc",
+        "c": "5aizc_c"
+    },
+    "36208": {
+        "default": "skm",
+        "c": "skm_c"
+    },
+    "58190": {
+        "default": "ethamp",
+        "c": "ethamp_c",
+        "r": "ethamp_r"
+    },
+    "57706": {
+        "default": "sucsal",
+        "c": "sucsal_c"
+    },
+    "29154": {
+        "default": "protrna",
+        "c": "protrna_c",
+        "m": "protrna_m"
+    },
+    "16567": {
+        "default": "anth",
+        "c": "anth_c"
+    },
+    "57692": {
+        "default": "fad",
+        "m": "fad_m",
+        "c": "fad_c"
+    },
+    "18820": {
+        "default": "a2m2prpnte",
+        "c": "a2m2prpnte_c"
+    },
+    "57651": {
+        "default": "2dr5p",
+        "c": "2dr5p_c"
+    },
+    "29919": {
+        "default": "h2s",
+        "c": "h2s_c"
+    },
+    "18070": {
+        "default": "cytc",
+        "c": "cytc_c"
+    },
+    "57557": {
+        "default": "5dpmev",
+        "c": "5dpmev_c"
+    },
+    "16094": {
+        "default": "tsul",
+        "m": "tsul_m",
+        "c": "tsul_c"
+    },
+    "58278": {
+        "default": "eig3p",
+        "c": "eig3p_c"
+    },
+    "57484": {
+        "default": "13dampp",
+        "c": "13dampp_c"
+    },
+    "49256": {
+        "default": "2ahbut",
+        "m": "2ahbut_m",
+        "c": "2ahbut_c"
+    },
+    "52325": {
+        "default": "3hdccoa",
+        "rm": "3hdccoa_rm"
+    },
+    "52615": {
+        "default": "zym_int1B",
+        "c": "zym_int1B_c"
+    },
+    "17830": {
+        "default": "dann",
+        "e": "dann_e",
+        "c": "dann_c"
+    },
+    "50577": {
+        "default": "3hodcoa",
+        "rm": "3hodcoa_rm"
+    },
+    "58057": {
+        "default": "grdp",
+        "c": "grdp_c"
+    },
+    "16016": {
+        "default": "dha",
+        "c": "dha_c"
+    },
+    "29166": {
+        "default": "glntrna",
+        "c": "glntrna_c"
+    },
+    "58374": {
+        "default": "aproa",
+        "c": "aproa_c"
+    },
+    "17775": {
+        "default": "urate",
+        "x": "urate_x"
+    },
+    "61430": {
+        "default": "dcacoa",
+        "x": "dcacoa_x"
+    },
+    "27650": {
+        "default": "thfglu",
+        "c": "thfglu_c"
+    },
+    "53043": {
+        "default": "pren10dp",
+        "l": "pren10dp_l"
+    },
+    "58827": {
+        "default": "dhsch",
+        "c": "dhsch_c"
+    },
+    "58280": {
+        "default": "idp",
+        "c": "idp_c"
+    },
+    "58429": {
+        "default": "tre6p",
+        "c": "tre6p_c"
+    },
+    "57699": {
+        "default": "histd",
+        "c": "histd_c"
+    },
+    "29176": {
+        "default": "trnagly",
+        "c": "trnagly_c"
+    },
+    "16518": {
+        "default": "focytb5",
+        "r": "focytb5_r"
+    },
+    "57737": {
+        "default": "xu5p__D",
+        "c": "xu5p__D_c"
+    },
+    "17509": {
+        "default": "5mta",
+        "c": "5mta_c"
+    },
+    "35181": {
+        "default": "4adcho",
+        "c": "4adcho_c"
+    },
+    "58593": {
+        "default": "dcdp",
+        "c": "dcdp_c",
+        "n": "dcdp_n"
+    },
+    "17732": {
+        "default": "alatrna",
+        "c": "alatrna_c"
+    },
+    "57472": {
+        "default": "argsuc",
+        "c": "argsuc_c"
+    },
+    "52327": {
+        "default": "3oiccoa",
+        "x": "3oiccoa_x",
+        "rm": "3oiccoa_rm"
+    },
+    "59458": {
+        "default": "4ppcys",
+        "c": "4ppcys_c"
+    },
+    "28325": {
+        "default": "3hdcoa",
+        "x": "3hdcoa_x"
+    },
+    "29168": {
+        "default": "trnagln",
+        "c": "trnagln_c"
+    },
+    "17154": {
+        "default": "ncam",
+        "n": "ncam_n",
+        "c": "ncam_c"
+    },
+    "60256": {
+        "default": "cer4_24",
+        "r": "cer4_24_r"
+    },
+    "11851": {
+        "default": "3mob",
+        "m": "3mob_m",
+        "c": "3mob_c"
+    },
+    "57524": {
+        "default": "pser__L",
+        "c": "pser__L_c"
+    },
+    "53037": {
+        "default": "pren16dp",
+        "l": "pren16dp_l"
+    },
+    "53042": {
+        "default": "pren11dp",
+        "l": "pren11dp_l"
+    },
+    "17240": {
+        "default": "itacon",
+        "m": "itacon_m",
+        "c": "itacon_c"
+    },
+    "57513": {
+        "default": "acgam6p",
+        "c": "acgam6p_c"
+    },
+    "57916": {
+        "default": "3hph5mb",
+        "m": "3hph5mb_m",
+        "c": "3hph5mb_c"
+    },
+    "58373": {
+        "default": "3dh5hpb",
+        "c": "3dh5hpb_c",
+        "m": "3dh5hpb_m"
+    },
+    "58671": {
+        "default": "2amsa",
+        "c": "2amsa_c"
+    },
+    "58452": {
+        "default": "phthr",
+        "c": "phthr_c"
+    },
+    "58173": {
+        "default": "glucys",
+        "c": "glucys_c"
+    },
+    "60033": {
+        "default": "uaaGgla",
+        "c": "uaaGgla_c"
+    },
+    "49072": {
+        "default": "23dhmb",
+        "m": "23dhmb_m",
+        "c": "23dhmb_c"
+    },
+    "57386": {
+        "default": "occoa",
+        "x": "occoa_x"
+    },
+    "145989": {
+        "default": "skm5p",
+        "c": "skm5p_c"
+    },
+    "59338": {
+        "default": "mma",
+        "c": "mma_c"
+    },
+    "44337": {
+        "default": "acglu",
+        "m": "acglu_m",
+        "c": "acglu_c"
+    },
+    "58923": {
+        "default": "lipoamp",
+        "m": "lipoamp_m",
+        "c": "lipoamp_c"
+    },
+    "15748": {
+        "default": "glcur",
+        "n": "glcur_n"
+    },
+    "58126": {
+        "default": "ppbng",
+        "c": "ppbng_c"
+    },
+    "327995": {
+        "default": "tym",
+        "c": "tym_c"
+    },
+    "57292": {
+        "default": "succoa",
+        "m": "succoa_m",
+        "c": "succoa_c"
+    },
+    "58121": {
+        "default": "ru5p__D",
+        "c": "ru5p__D_c"
+    },
+    "53066": {
+        "default": "45dpmitp",
+        "c": "45dpmitp_c"
+    },
+    "58462": {
+        "default": "ahdt",
+        "c": "ahdt_c"
+    },
+    "52324": {
+        "default": "3hicoscoa",
+        "rm": "3hicoscoa_rm"
+    },
+    "57673": {
+        "default": "dgmp",
+        "c": "dgmp_c"
+    },
+    "58762": {
+        "default": "dhpmp",
+        "c": "dhpmp_c"
+    },
+    "58681": {
+        "default": "pram",
+        "c": "pram_c"
+    },
+    "15934": {
+        "default": "4r5au",
+        "c": "4r5au_c"
+    },
+    "295975": {
+        "default": "cholp",
+        "c": "cholp_c"
+    },
+    "58085": {
+        "default": "2ippm",
+        "c": "2ippm_c"
+    },
+    "58457": {
+        "default": "gar",
+        "c": "gar_c"
+    },
+    "58443": {
+        "default": "25aics",
+        "c": "25aics_c"
+    },
+    "62613": {
+        "default": "3hhdcoa",
+        "rm": "3hhdcoa_rm"
+    },
+    "50611": {
+        "default": "Nfortyr2",
+        "e": "Nfortyr2_e"
+    },
+    "17411": {
+        "default": "acgam",
+        "e": "acgam_e"
+    },
+    "27402": {
+        "default": "3hhdcoa",
+        "x": "3hhdcoa_x"
+    },
+    "57667": {
+        "default": "dadp",
+        "c": "dadp_c",
+        "n": "dadp_n"
+    },
+    "17992": {
+        "default": "sucr",
+        "e": "sucr_e"
+    },
+    "53041": {
+        "default": "pren12dp",
+        "l": "pren12dp_l"
+    },
+    "17369": {
+        "default": "man6p",
+        "c": "man6p_c"
+    },
+    "17460": {
+        "default": "lpam",
+        "m": "lpam_m",
+        "c": "lpam_c"
+    },
+    "57330": {
+        "default": "dd2coa",
+        "x": "dd2coa_x"
+    },
+    "18189": {
+        "default": "r5p",
+        "c": "r5p_c"
+    },
+    "58828": {
+        "default": "dkmpp",
+        "c": "dkmpp_c"
+    },
+    "29170": {
+        "default": "trnaala",
+        "c": "trnaala_c"
+    },
+    "29163": {
+        "default": "thrtrna",
+        "c": "thrtrna_c"
+    },
+    "36559": {
+        "default": "3hanthrn",
+        "c": "3hanthrn_c"
+    },
+    "29180": {
+        "default": "trnathr",
+        "c": "trnathr_c"
+    },
+    "58592": {
+        "default": "air",
+        "c": "air_c"
+    },
+    "28823": {
+        "default": "didp",
+        "c": "didp_c"
+    },
+    "17083": {
+        "default": "6hmhpt",
+        "m": "6hmhpt_m",
+        "c": "6hmhpt_c"
+    },
+    "58401": {
+        "default": "mi3p__D",
+        "m": "mi3p__D_m",
+        "r": "mi3p__D_r",
+        "c": "mi3p__D_c"
+    },
+    "49258": {
+        "default": "23dhmp",
+        "m": "23dhmp_m",
+        "c": "23dhmp_c"
+    },
+    "27380": {
+        "default": "16BDglucan",
+        "en": "16BDglucan_en"
+    },
+    "52371": {
+        "default": "cer2B_24",
+        "r": "cer2B_24_r"
+    },
+    "29185": {
+        "default": "trnalys",
+        "c": "trnalys_c"
+    },
+    "57381": {
+        "default": "itaccoa",
+        "m": "itaccoa_m",
+        "c": "itaccoa_c"
+    },
+    "50593": {
+        "default": "3d4mzym",
+        "c": "3d4mzym_c"
+    },
+    "57794": {
+        "default": "dgtp",
+        "c": "dgtp_c"
+    },
+    "58289": {
+        "default": "2pg",
+        "c": "2pg_c"
+    },
+    "17482": {
+        "default": "cyst__L",
+        "c": "cyst__L_c"
+    },
+    "58141": {
+        "default": "ap4a",
+        "c": "ap4a_c"
+    },
+    "18053": {
+        "default": "1acpc",
+        "x": "1acpc_x"
+    },
+    "28053": {
+        "default": "melib",
+        "e": "melib_e"
+    },
+    "18005": {
+        "default": "phpyr",
+        "c": "phpyr_c"
+    },
+    "57936": {
+        "default": "acg5p",
+        "m": "acg5p_m",
+        "c": "acg5p_c"
+    },
+    "57861": {
+        "default": "dtbt",
+        "c": "dtbt_c"
+    },
+    "17330": {
+        "default": "malACP",
+        "m": "malACP_m",
+        "c": "malACP_c"
+    },
+    "16169": {
+        "default": "hgentis",
+        "c": "hgentis_c"
+    },
+    "62423": {
+        "default": "2hyoxplac",
+        "c": "2hyoxplac_c"
+    },
+    "57661": {
+        "default": "suchms",
+        "c": "suchms_c"
+    },
+    "18410": {
+        "default": "nformanth",
+        "c": "nformanth_c"
+    },
+    "27667": {
+        "default": "gal_bD",
+        "c": "gal_bD_c",
+        "e": "gal_bD_e"
+    },
+    "16836": {
+        "default": "4nph",
+        "c": "4nph_c"
+    },
+    "17513": {
+        "default": "fdxrd",
+        "c": "fdxrd_c"
+    },
+    "17908": {
+        "default": "fdxox",
+        "c": "fdxox_c"
+    },
+    "17093": {
+        "default": "acACP",
+        "m": "acACP_m",
+        "c": "acACP_c"
+    },
+    "1": {
+        "default": "dad_5",
+        "c": "dad_5_c"
+    },
+    "57265": {
+        "default": "acgpail_gpi",
+        "c": "acgpail_gpi_c"
+    },
+    "27992": {
+        "default": "4hpro_LT",
+        "c": "4hpro_LT_c"
+    },
+    "16261": {
+        "default": "chitos",
+        "en": "chitos_en"
+    },
+    "53038": {
+        "default": "pren15dp",
+        "l": "pren15dp_l"
+    },
+    "29108": {
+        "default": "ca2",
+        "e": "ca2_e",
+        "c": "ca2_c",
+        "rm": "ca2_rm"
+    },
+    "29036": {
+        "default": "cu2",
+        "e": "cu2_e",
+        "c": "cu2_c",
+        "mm": "cu2_mm",
+        "m": "cu2_m"
+    },
+    "18420": {
+        "default": "mg2",
+        "e": "mg2_e",
+        "c": "mg2_c"
+    },
+    "29035": {
+        "default": "mn2",
+        "e": "mn2_e",
+        "c": "mn2_c",
+        "rm": "mn2_rm"
+    },
+    "29105": {
+        "default": "zn2",
+        "e": "zn2_e",
+        "c": "zn2_c"
+    },
+    "49268": {
+        "default": "5a2opntn",
+        "x": "5a2opntn_x"
+    },
+    "57668": {
+        "default": "orn__D",
+        "x": "orn__D_x"
+    },
+    "16313": {
+        "default": "pro__D",
+        "x": "pro__D_x"
+    },
+    "32689": {
+        "default": "arg__D",
+        "x": "arg__D_x"
+    },
+    "57390": {
+        "default": "phaccoa",
+        "c": "phaccoa_c"
+    },
+    "57392": {
+        "default": "ppcoa",
+        "c": "ppcoa_c",
+        "m": "ppcoa_m"
+    },
+    "74307": {
+        "default": "hpdcacoa",
+        "c": "hpdcacoa_c",
+        "rm": "hpdcacoa_rm",
+        "l": "hpdcacoa_l"
+    },
+    "32366": {
+        "default": "hpdca",
+        "c": "hpdca_c",
+        "rm": "hpdca_rm",
+        "l": "hpdca_l"
+    },
+    "13997": {
+        "default": "citm",
+        "c": "citm_c"
+    },
+    "57336": {
+        "default": "2mbcoa",
+        "m": "2mbcoa_m"
+    },
+    "57260": {
+        "default": "2mb2coa",
+        "m": "2mb2coa_m"
+    },
+    "57312": {
+        "default": "3hmbcoa",
+        "m": "3hmbcoa_m"
+    },
+    "57335": {
+        "default": "2maacoa",
+        "m": "2maacoa_m",
+        "c": "2maacoa_c"
+    },
+    "32360": {
+        "default": "arach",
+        "l": "arach_l",
+        "rm": "arach_rm"
+    },
+    "46448": {
+        "default": "q7",
+        "m": "q7_m",
+        "c": "q7_c"
+    },
+    "84432": {
+        "default": "q7h2",
+        "m": "q7h2_m",
+        "c": "q7h2_c"
+    },
+    "17272": {
+        "default": "ppa",
+        "m": "ppa_m",
+        "c": "ppa_c"
+    },
+    "36165": {
+        "default": "pime",
+        "c": "pime_c"
+    },
+    "57360": {
+        "default": "pmcoa",
+        "c": "pmcoa_c"
+    },
+    "48828": {
+        "default": "cobalt2",
+        "e": "cobalt2_e",
+        "c": "cobalt2_c"
+    },
+    "57618": {
+        "default": "fmnh2",
+        "c": "fmnh2_c"
+    }
+}

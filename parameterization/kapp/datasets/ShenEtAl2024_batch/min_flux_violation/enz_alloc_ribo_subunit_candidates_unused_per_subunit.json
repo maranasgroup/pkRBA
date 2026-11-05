@@ -1,0 +1,974 @@
+{
+  "c": {
+    "LSU": {
+      "A0A099NWB6": {
+        "GO_terms": [
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.75 molecules per ribosome can be provided."
+        ],
+        "flux": 9.357759482110056e-06,
+        "max copies per ribosome": "0.75",
+        "potential_ribo_subunit_names": [
+          "uL3"
+        ]
+      },
+      "A0A099NWE2": {
+        "GO_terms": [
+          "GO:0000027",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0008097",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.54 molecules per ribosome can be provided."
+        ],
+        "flux": 6.667743943938232e-06,
+        "max copies per ribosome": "0.54",
+        "potential_ribo_subunit_names": [
+          "uL18"
+        ]
+      },
+      "A0A099NWW3": {
+        "GO_terms": [
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0022625",
+          "GO:0022627"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.73 molecules per ribosome can be provided."
+        ],
+        "flux": 9.033858910229744e-06,
+        "max copies per ribosome": "0.73",
+        "potential_ribo_subunit_names": [
+          "eL18",
+          "eS19"
+        ]
+      },
+      "A0A099NY31": {
+        "GO_terms": [
+          "GO:0002181",
+          "GO:0003735",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.93 molecules per ribosome can be provided."
+        ],
+        "flux": 1.1537701252572149e-05,
+        "max copies per ribosome": "0.93",
+        "potential_ribo_subunit_names": [
+          "eL31"
+        ]
+      },
+      "A0A099NYF4": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.12 molecules per ribosome can be provided."
+        ],
+        "flux": 1.4293783244392899e-06,
+        "max copies per ribosome": "0.12",
+        "potential_ribo_subunit_names": [
+          "eL32"
+        ]
+      },
+      "A0A099NZV1": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0015934"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.74 molecules per ribosome can be provided."
+        ],
+        "flux": 9.2076201488884e-06,
+        "max copies per ribosome": "0.74",
+        "potential_ribo_subunit_names": [
+          "eL21"
+        ]
+      },
+      "A0A099P0M9": {
+        "GO_terms": [
+          "GO:0000027",
+          "GO:0000981",
+          "GO:0002181",
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0008270",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.29 molecules per ribosome can be provided."
+        ],
+        "flux": 3.5497839024373703e-06,
+        "max copies per ribosome": "0.29",
+        "potential_ribo_subunit_names": [
+          "eL6"
+        ]
+      },
+      "A0A099P0Z9": {
+        "GO_terms": [
+          "GO:0000463",
+          "GO:0002181",
+          "GO:0003729",
+          "GO:0003735",
+          "GO:0022625",
+          "GO:0030687"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.64 molecules per ribosome can be provided."
+        ],
+        "flux": 8.00022602858703e-06,
+        "max copies per ribosome": "0.64",
+        "potential_ribo_subunit_names": [
+          "uL29"
+        ]
+      },
+      "A0A099P135": {
+        "GO_terms": [
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.76 molecules per ribosome can be provided."
+        ],
+        "flux": 9.492350420913994e-06,
+        "max copies per ribosome": "0.76",
+        "potential_ribo_subunit_names": [
+          "eL19"
+        ]
+      },
+      "A0A099P162": {
+        "GO_terms": [
+          "GO:0002181",
+          "GO:0003729",
+          "GO:0003735",
+          "GO:0006414",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.24 molecules per ribosome can be provided."
+        ],
+        "flux": 2.972861016612649e-06,
+        "max copies per ribosome": "0.24",
+        "potential_ribo_subunit_names": [
+          "eL24"
+        ]
+      },
+      "A0A099P1R1": {
+        "GO_terms": [
+          "GO:0002181",
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.38 molecules per ribosome can be provided."
+        ],
+        "flux": 4.7769434605351855e-06,
+        "max copies per ribosome": "0.38",
+        "potential_ribo_subunit_names": [
+          "eL15"
+        ]
+      },
+      "A0A099P2Y9": {
+        "GO_terms": [
+          "GO:0000027",
+          "GO:0002181",
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.02 molecules per ribosome can be provided."
+        ],
+        "flux": 2.331847909756216e-07,
+        "max copies per ribosome": "0.02",
+        "potential_ribo_subunit_names": [
+          "eL6"
+        ]
+      },
+      "A0A099P6N1": {
+        "GO_terms": [
+          "GO:0000027",
+          "GO:0000062",
+          "GO:0002181",
+          "GO:0003700",
+          "GO:0003735",
+          "GO:0005634",
+          "GO:0022625",
+          "GO:0034599",
+          "GO:0070180"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.34 molecules per ribosome can be provided."
+        ],
+        "flux": 4.177568935455587e-06,
+        "max copies per ribosome": "0.34",
+        "potential_ribo_subunit_names": [
+          "uL11"
+        ]
+      },
+      "A0A099P6W2": {
+        "GO_terms": [
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0015934",
+          "GO:0030684"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.80 molecules per ribosome can be provided."
+        ],
+        "flux": 9.911849433337752e-06,
+        "max copies per ribosome": "0.80",
+        "potential_ribo_subunit_names": [
+          "uL24"
+        ]
+      },
+      "A0A099P927": {
+        "GO_terms": [
+          "GO:0002181",
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0022625"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.55 molecules per ribosome can be provided."
+        ],
+        "flux": 6.766868341056163e-06,
+        "max copies per ribosome": "0.55",
+        "potential_ribo_subunit_names": [
+          "eL22"
+        ]
+      }
+    },
+    "SSU": {
+      "A0A099NWP3": {
+        "GO_terms": [
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0015935"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.95 molecules per ribosome can be provided."
+        ],
+        "flux": 1.178526763712768e-05,
+        "max copies per ribosome": "0.95",
+        "potential_ribo_subunit_names": [
+          "uS10"
+        ]
+      },
+      "A0A099P1X0": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0012505",
+          "GO:0022627"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.38 molecules per ribosome can be provided."
+        ],
+        "flux": 4.685672967742103e-06,
+        "max copies per ribosome": "0.38",
+        "potential_ribo_subunit_names": [
+          "eS30"
+        ]
+      },
+      "A0A099P535": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0015935"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.29 molecules per ribosome can be provided."
+        ],
+        "flux": 3.587631335146185e-06,
+        "max copies per ribosome": "0.29",
+        "potential_ribo_subunit_names": [
+          "uS12"
+        ]
+      },
+      "A0A099P644": {
+        "GO_terms": [
+          "GO:0003729",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0022627"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.10 molecules per ribosome can be provided."
+        ],
+        "flux": 1.219712544212555e-06,
+        "max copies per ribosome": "0.10",
+        "potential_ribo_subunit_names": [
+          "eS26"
+        ]
+      }
+    },
+    "unknown": {
+      "A0A099NNU5": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0006412"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.05 molecules per ribosome can be provided."
+        ],
+        "flux": 6.727368051606633e-07,
+        "max copies per ribosome": "0.05",
+        "potential_ribo_subunit_names": [
+          "bL33m"
+        ]
+      },
+      "A0A099NR89": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "flux": 1.3613911392849109e-05,
+        "max copies per ribosome": "1.10"
+      },
+      "A0A099NT04": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.89 molecules per ribosome can be provided."
+        ],
+        "flux": 1.1046052450746941e-05,
+        "max copies per ribosome": "0.89",
+        "potential_ribo_subunit_names": [
+          "eL36"
+        ]
+      },
+      "A0A099NT84": {
+        "GO_terms": [
+          "GO:0003729",
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0006412"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.02 molecules per ribosome can be provided."
+        ],
+        "flux": 2.407490893306395e-07,
+        "max copies per ribosome": "0.02",
+        "potential_ribo_subunit_names": [
+          "bL12"
+        ]
+      },
+      "A0A099NTK9": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763",
+          "GO:0032543"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.13 molecules per ribosome can be provided."
+        ],
+        "flux": 1.653561133569564e-06,
+        "max copies per ribosome": "0.13",
+        "potential_ribo_subunit_names": [
+          "mS35"
+        ]
+      },
+      "A0A099NU97": {
+        "GO_terms": [
+          "GO:0003723",
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.14 molecules per ribosome can be provided."
+        ],
+        "flux": 1.7952746915724668e-06,
+        "max copies per ribosome": "0.14",
+        "potential_ribo_subunit_names": [
+          "uL24"
+        ]
+      },
+      "A0A099NUQ6": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.43 molecules per ribosome can be provided."
+        ],
+        "flux": 5.385073236238188e-06,
+        "max copies per ribosome": "0.43",
+        "potential_ribo_subunit_names": [
+          "uL5"
+        ]
+      },
+      "A0A099NV90": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005743",
+          "GO:0005762",
+          "GO:0006412",
+          "GO:0008270"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.07 molecules per ribosome can be provided."
+        ],
+        "flux": 8.28053011104295e-07,
+        "max copies per ribosome": "0.07",
+        "potential_ribo_subunit_names": [
+          "bL32m"
+        ]
+      },
+      "A0A099NVH7": {
+        "GO_terms": [
+          "GO:0000461",
+          "GO:0003735",
+          "GO:0006412",
+          "GO:0022626",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.84 molecules per ribosome can be provided."
+        ],
+        "flux": 1.0379687875347191e-05,
+        "max copies per ribosome": "0.84",
+        "potential_ribo_subunit_names": [
+          "eS21"
+        ]
+      },
+      "A0A099NVR7": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.10 molecules per ribosome can be provided."
+        ],
+        "flux": 1.1803654674952048e-06,
+        "max copies per ribosome": "0.10",
+        "potential_ribo_subunit_names": [
+          "eL34"
+        ]
+      },
+      "A0A099NWA5": {
+        "GO_terms": [
+          "GO:0005739"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.03 molecules per ribosome can be provided."
+        ],
+        "flux": 3.653438551456611e-07,
+        "max copies per ribosome": "0.03",
+        "potential_ribo_subunit_names": [
+          "mS41"
+        ]
+      },
+      "A0A099NWJ1": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005737",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:0031386",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.48 molecules per ribosome can be provided."
+        ],
+        "flux": 5.972538153658009e-06,
+        "max copies per ribosome": "0.48",
+        "potential_ribo_subunit_names": [
+          "eS31"
+        ]
+      },
+      "A0A099NWM6": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.14 molecules per ribosome can be provided."
+        ],
+        "flux": 1.787012351830804e-06,
+        "max copies per ribosome": "0.14",
+        "potential_ribo_subunit_names": [
+          "mL53"
+        ]
+      },
+      "A0A099NX67": {
+        "GO_terms": [
+          "GO:0000028",
+          "GO:0003735",
+          "GO:0005829",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.89 molecules per ribosome can be provided."
+        ],
+        "flux": 1.110564909613839e-05,
+        "max copies per ribosome": "0.89",
+        "potential_ribo_subunit_names": [
+          "eS17"
+        ]
+      },
+      "A0A099NXP5": {
+        "GO_terms": [
+          "GO:0006364",
+          "GO:0019843",
+          "GO:0030515",
+          "GO:0032040",
+          "GO:0034457",
+          "GO:0042274",
+          "GO:0140691"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.05 molecules per ribosome can be provided."
+        ],
+        "flux": 6.629649785539312e-07,
+        "max copies per ribosome": "0.05",
+        "potential_ribo_subunit_names": [
+          "uS4"
+        ]
+      },
+      "A0A099NY35": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.07 molecules per ribosome can be provided."
+        ],
+        "flux": 8.957132036706351e-07,
+        "max copies per ribosome": "0.07",
+        "potential_ribo_subunit_names": [
+          "uL18",
+          "uL5"
+        ]
+      },
+      "A0A099NY98": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0033617"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.09 molecules per ribosome can be provided."
+        ],
+        "flux": 1.110454961584718e-06,
+        "max copies per ribosome": "0.09",
+        "potential_ribo_subunit_names": [
+          "mL38"
+        ]
+      },
+      "A0A099NYA2": {
+        "GO_terms": [
+          "GO:0000196",
+          "GO:0003735",
+          "GO:0004674",
+          "GO:0005524",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:0030447",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.72 molecules per ribosome can be provided."
+        ],
+        "flux": 8.902242130979899e-06,
+        "max copies per ribosome": "0.72",
+        "potential_ribo_subunit_names": [
+          "eL27"
+        ]
+      },
+      "A0A099NYE8": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.14 molecules per ribosome can be provided."
+        ],
+        "flux": 1.691396898924292e-06,
+        "max copies per ribosome": "0.14",
+        "potential_ribo_subunit_names": [
+          "mS33"
+        ]
+      },
+      "A0A099NYV2": {
+        "GO_terms": [
+          "GO:0003729",
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0006412"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.35 molecules per ribosome can be provided."
+        ],
+        "flux": 4.317196470018939e-06,
+        "max copies per ribosome": "0.35",
+        "potential_ribo_subunit_names": [
+          "bL12"
+        ]
+      },
+      "A0A099NZE2": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0006412"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.07 molecules per ribosome can be provided."
+        ],
+        "flux": 8.887801062020431e-07,
+        "max copies per ribosome": "0.07",
+        "potential_ribo_subunit_names": [
+          "uL3",
+          "uL3m"
+        ]
+      },
+      "A0A099NZU6": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763",
+          "GO:0032543"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.25 molecules per ribosome can be provided."
+        ],
+        "flux": 3.16303146109941e-06,
+        "max copies per ribosome": "0.25"
+      },
+      "A0A099P0A1": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763",
+          "GO:0006412",
+          "GO:0008168",
+          "GO:0046872",
+          "GO:0051536"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.01 molecules per ribosome can be provided."
+        ],
+        "flux": 1.351527466945207e-07,
+        "max copies per ribosome": "0.01"
+      },
+      "A0A099P0V0": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0032543"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.04 molecules per ribosome can be provided."
+        ],
+        "flux": 5.291168609509023e-07,
+        "max copies per ribosome": "0.04",
+        "potential_ribo_subunit_names": [
+          "mL60"
+        ]
+      },
+      "A0A099P116": {
+        "GO_terms": [
+          "GO:0000150",
+          "GO:0003697",
+          "GO:0003735",
+          "GO:0005739",
+          "GO:0005840",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.08 molecules per ribosome can be provided."
+        ],
+        "flux": 1.033851102429255e-06,
+        "max copies per ribosome": "0.08",
+        "potential_ribo_subunit_names": [
+          "mL67"
+        ]
+      },
+      "A0A099P2G7": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763",
+          "GO:0032543",
+          "GO:0070181"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.13 molecules per ribosome can be provided."
+        ],
+        "flux": 1.6004860012888949e-06,
+        "max copies per ribosome": "0.13",
+        "potential_ribo_subunit_names": [
+          "bS18m"
+        ]
+      },
+      "A0A099P367": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.84 molecules per ribosome can be provided."
+        ],
+        "flux": 1.042093120002598e-05,
+        "max copies per ribosome": "0.84",
+        "potential_ribo_subunit_names": [
+          "eS6"
+        ]
+      },
+      "A0A099P3F6": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.99 molecules per ribosome can be provided."
+        ],
+        "flux": 1.230992525813949e-05,
+        "max copies per ribosome": "0.99",
+        "potential_ribo_subunit_names": [
+          "uL16"
+        ]
+      },
+      "A0A099P4K2": {
+        "GO_terms": [
+          "GO:0005840",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.95 molecules per ribosome can be provided."
+        ],
+        "flux": 1.1741758712484259e-05,
+        "max copies per ribosome": "0.95",
+        "potential_ribo_subunit_names": [
+          "eS25"
+        ]
+      },
+      "A0A099P4T0": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.09 molecules per ribosome can be provided."
+        ],
+        "flux": 1.170833328734776e-06,
+        "max copies per ribosome": "0.09",
+        "potential_ribo_subunit_names": [
+          "eL42"
+        ]
+      },
+      "A0A099P5L7": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005739",
+          "GO:0005840",
+          "GO:0032543",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.13 molecules per ribosome can be provided."
+        ],
+        "flux": 1.6418585532485102e-06,
+        "max copies per ribosome": "0.13",
+        "potential_ribo_subunit_names": [
+          "mL40"
+        ]
+      },
+      "A0A099P6T3": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0006412"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.14 molecules per ribosome can be provided."
+        ],
+        "flux": 1.700301970183465e-06,
+        "max copies per ribosome": "0.14",
+        "potential_ribo_subunit_names": [
+          "eL27",
+          "mL41"
+        ]
+      },
+      "A0A099P758": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0006412"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.06 molecules per ribosome can be provided."
+        ],
+        "flux": 7.068790991569662e-07,
+        "max copies per ribosome": "0.06",
+        "potential_ribo_subunit_names": []
+      },
+      "A0A099P7T6": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.91 molecules per ribosome can be provided."
+        ],
+        "flux": 1.134021250513585e-05,
+        "max copies per ribosome": "0.91",
+        "potential_ribo_subunit_names": [
+          "eS24"
+        ]
+      },
+      "A9YUD0": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005739",
+          "GO:0005840",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.15 molecules per ribosome can be provided."
+        ],
+        "flux": 1.903761855125578e-06,
+        "max copies per ribosome": "0.15",
+        "potential_ribo_subunit_names": [
+          "mL61"
+        ]
+      },
+      "JL09_g4392": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0004146",
+          "GO:0005840",
+          "GO:0006412",
+          "GO:0006730",
+          "GO:0046654",
+          "GO:1990904"
+        ],
+        "disclaimers": [
+          "Likely interchangeable with other proteins in the same subunit group, since no more than 0.12 molecules per ribosome can be provided."
+        ],
+        "flux": 1.550607466898036e-06,
+        "max copies per ribosome": "0.12",
+        "potential_ribo_subunit_names": [
+          "eL33"
+        ]
+      }
+    }
+  },
+  "m": {
+    "LSU": {
+      "A0A099P3B0": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0004525",
+          "GO:0005762",
+          "GO:0006396",
+          "GO:0032543"
+        ],
+        "flux": 1.490184548033247e-06,
+        "max copies per ribosome": "516.84"
+      },
+      "A0A099P758": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005762",
+          "GO:0006412"
+        ],
+        "flux": 7.068790991569662e-07,
+        "max copies per ribosome": "245.17",
+        "potential_ribo_subunit_names": []
+      }
+    },
+    "SSU": {
+      "A0A099NWG0": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763",
+          "GO:0070124"
+        ],
+        "flux": 1.585630050499448e-06,
+        "max copies per ribosome": "549.95"
+      },
+      "A0A099NXJ3": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0004784",
+          "GO:0005763",
+          "GO:0046872"
+        ],
+        "flux": 2.0104497877528197e-06,
+        "max copies per ribosome": "697.29"
+      },
+      "A0A099NZU6": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763",
+          "GO:0032543"
+        ],
+        "flux": 3.16303146109941e-06,
+        "max copies per ribosome": "1097.04"
+      },
+      "A0A099P0A1": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0005763",
+          "GO:0006412",
+          "GO:0008168",
+          "GO:0046872",
+          "GO:0051536"
+        ],
+        "flux": 1.351527466945207e-07,
+        "max copies per ribosome": "46.88"
+      },
+      "JL09_g2048": {
+        "GO_terms": [
+          "GO:0003735",
+          "GO:0003860",
+          "GO:0005763",
+          "GO:0006574"
+        ],
+        "flux": 3.060357513378796e-06,
+        "max copies per ribosome": "1061.43"
+      }
+    },
+    "unknown": {}
+  }
+}

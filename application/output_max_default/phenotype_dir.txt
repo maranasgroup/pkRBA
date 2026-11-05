@@ -1,0 +1,2 @@
+* applied to all products in this folder; overruled by individual product phenotype files
+

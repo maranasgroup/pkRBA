@@ -1,0 +1,6 @@
+* highest-level directory for model (i.e., where 'pycore' and 'GAMS' are)
+$setGlobal model_root_path ../../../
+$setGlobal gms_path %model_root_path%application/input/GAMS_model_application/
+
+* paths overriding default paths
+$setGlobal rxns_add_path %gms_path%RBA_rxns_add.txt

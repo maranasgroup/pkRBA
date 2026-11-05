@@ -1,0 +1,14 @@
+real:feastol = 1e-11
+real:opttol = 1e-11
+real:fpfeastol = 1e-11
+real:fpopttol = 1e-11
+
+* added to reduce the need for multiple iterations
+algorithm = 1
+pricer = 3
+
+* reduce outputs for faster run times
+int:verbosity = 0
+
+* use updated simplifier to reduce memory usage
+int:simplifier = 0

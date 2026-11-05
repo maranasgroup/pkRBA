@@ -1,0 +1,13 @@
+* turn off use_membrane_SA_vivo(c) equations (from defaults.gms)
+use_membrane_SA_vivo(c) = 0;
+* turn off total protein mass fraction constraint (from defaults.gms)
+use_prot_mass_fraction_max_eqn(j) = 0;
+
+* force AAs to roughly their measured levels
+$set v_trans_UB_AA_path %model_root_path%build_model/input/v_trans_AA.txt
+$onMultiR
+parameters v_trans_UB(AA) 
+$if exist %v_trans_UB_AA_path% $include %v_trans_UB_AA_path%
+;
+$offMulti
+v_trans_UB(AA) = v_trans_UB(AA)*(1+3e-1);

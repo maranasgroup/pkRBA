@@ -1,0 +1,17 @@
+optcr = 1E-9
+optca = 1E-9
+eprhs = 1E-9
+threads = 1
+parallelmode = 1
+
+* reduce info displayed, for faster run times
+conflictdisplay = 0
+bardisplay = 0
+clonelog = -1
+mipdisplay = 1
+netdisplay = 0
+simdisplay = 0
+siftdisplay = 0
+tuningdisplay = 0
+*writeannotation = /dev/null
+multobjdisplay = 0

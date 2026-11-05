@@ -1,0 +1,216 @@
+$setGlobal gms %system.FN%
+** Copy of max yields
+* run RBA without bisection, using default settings and outputs
+
+$include "./runRBA_GAMS_settings.txt"
+
+* if initial solve is infeasible, try adjustments (e.g., changing growth rate)
+$setGlobal adjust_constraints_if_infeas 0
+* % of min experimental yield model must at least match
+$setGlobal percent_min_exp_yield 0
+* default carbon slack (disabled by default)
+$setGlobal carbonSlack 0
+
+$include %model_root_path%GAMS/defaults.gms
+
+$setGlobal min_media_path %null_path%
+$set path "%gms_path%RBA_rxns_EXREV_minimal.txt"
+$if exist %path% $setGlobal min_media_path %path%
+sets
+rxns_add(j) "list of heterologous rxns added for model application"
+$include "%rxns_add_path%"
+min_media(j)
+$include %min_media_path%
+;
+
+parameters
+mw(j)
+$include "yield_denominators.txt"
+mw_other_possible_substrates(j)
+$include "yield_denominators_expanded.txt"
+mu_current
+;
+
+variables
+v_prod
+mv_sub_sum "sum of (substrate flux * MW) for all substrates"
+secretion_sum
+;
+
+* Turn off all heterologous rxns rxns_add
+* Corresponding rxns for specific product will be turned on in phenotype.txt file
+v.up(j)$rxns_add(j) = 0;
+
+$onMultiR
+$include phenotype.txt
+
+equations
+mvSubSum, minYield, maxProd, def_secretion_sum
+;
+mvSubSum.. mv_sub_sum =e= sum(j$mw(j),v(j)*mw(j));
+minYield.. minProductYield * mv_sub_sum * %percent_min_exp_yield% / 100 =l= %prod_mw% * v('%vprod%');
+maxProd..			v_prod =e= -v('%vprod%');
+def_secretion_sum..	secretion_sum =e= sum(secretion(j),v(j));
+
+Model rba
+/all/;
+rba.optfile = 1;
+$offMulti
+
+solve rba using lp minimizing v_prod;
+
+*if((rba.modelstat = 1 or rba.modelstat = 2 or rba.modelstat = 5 or rba.modelstat = 8),
+*	v_prod.up = v_prod.l + %bi_tol%;
+*	solve rba using lp minimizing secretion_sum;
+*);
+
+* solve again, minimizing mv_sub_sum to find a better yield by discouraging wasteful substrate use
+* NOTE: (get rid of this if linear fractional programming version is developed)
+* save current uptake bounds as parameters
+Parameters
+v_up(j), vprod_max
+;
+v_up(j) = v.up(j);
+vprod_max = v.l('%vprod%');
+v.lo('%vprod%') = vprod_max;
+*if((rba.modelstat eq 1),
+*	Solve rba using lp minimizing mv_sub_sum;
+*);
+
+* If not optimal, try again with bounds on vprod relaxed in case it's demanding too much.
+* This isn't done initially in case setting specific bounds is important for replicating experimental results (e.g., for making multiple products).
+v.up('%vprod%') = 1e3 * %nscale%;
+v.lo('%vprod%') = 0 * %nscale%;
+
+* If not optimal, find lowest uptakes that still allow optimal growth and exp. yields
+* Retry while relaxing uptake upper bounds via slack variables, then minimize their sum
+* Included in case uptake rate estimates are inaccurate.
+
+* allow all possible uptakes in medium to reach max flux
+v.up(j)$(uptake(j) and v_up(j) gt 0) = 1e3 * %nscale%;
+
+Variables
+slack(j), slacksum
+;
+* default
+slack.fx(j) = 0;
+* allow slack for uptakes
+slack.up(j)$(uptake(j) and v.up(j) gt 0) = inf;
+slack.lo(j)$(uptake(j) and v.up(j) gt 0) = 0 * %nscale%;
+* use initial uptake bounds as slack for other reactions
+*$include "RBA_GAMS_defaults_from_FBA_initial.txt"
+Equations slackcons, slackobj;
+slackcons(j)$(slack.up(j) ne 0).. v(j) =l= v_up(j) + slack(j);
+slackobj.. slacksum =e= sum(j, slack(j));
+Model rba_slack /all/;
+
+* added in case infeasibilities occur, and FBA predictions should be adjusted to match
+$onMulti
+Model fba /
+Obj, Stoic, mvSubSum, minYield, slackcons, slackobj
+/;
+
+while((rba.modelstat ne 1 and (%adjust_constraints_if_infeas% ne 0)),
+	rba_slack.optfile = 1;
+	display 'UPDATE: find lowest uptakes that still allow optimal growth and exp. yields';
+	Solve rba_slack using lp minimizing slacksum;
+	if(rba_slack.modelstat eq 1, break;);
+
+* If still not optimal, suggests minYield is wrong or the model's parameters don't perfectly match exp. conditions
+* Try again, but find the highest yields under the original conditions
+* turn off yield requirements
+	minProductYield = 0;
+	display 'UPDATE: find highest yields under the original conditions';
+	Solve rba_slack using lp minimizing z;
+	if(rba_slack.modelstat eq 1, break;);
+
+* if still infeas., test if any media composition would work
+	v.up(j)$(uptake(j)) = 1e3 * %nscale%;
+	slack.up(j)$(uptake(j)) = 1e10 * %nscale%;
+* find smallest uptake slacks needed for near-maximum flux
+	display 'UPDATE: find smallest uptakes needed for near-maximum product flux';
+	Solve rba_slack using lp minimizing slacksum;
+	if(rba_slack.modelstat eq 1,
+		v.fx("%vprod%") = v.l("%vprod%") * 0.99;
+		Solve rba_slack using lp minimizing z;
+	);
+	break
+);
+
+$include %model_root_path%GAMS/default_outputs.gms
+$include %model_root_path%GAMS/extra_outputs.gms
+
+* write slacks and uptakes to file
+file ff3 /runRBA.slack.txt/;
+ff3.pc=6;
+put ff3;
+put 'rxn','flux','slack'/;
+loop(j$(uptake(j) and v.up(j) gt 0),
+	put j.tl:0, (v.l(j) / %nscale%):0:15,slack.l(j):0:15/;
+);
+putclose ff3;
+
+** FVA-only portion
+v_prod.up = max(v_prod.l + %bi_tol%, v_prod.l*(-1-%bi_tol%));
+
+$onMulti
+Sets
+rxns_tested(j) "rxns to include in FVA"
+dummy(j) "dummy set for iterating over rxns"
+;
+$offMulti
+if ((card(rxns_tested) = 0),
+	rxns_tested(j) = yes;
+);
+
+Parameters
+high(j), low(j)
+;
+
+Variables
+z_fva
+;
+
+Equations
+Obj_FVA
+;
+
+Obj_FVA..           z_fva =e= sum(j$dummy(j),v(j));
+$onMultiR
+model rba /all/;
+rba.optfile = 1;
+$offMulti
+*Updates output while solving, so errors won't get rid of output
+file f_fva /%system.FN%.txt/;
+put f_fva;
+* Clear old file
+put "rxn",system.tab,"upper-bound"/;
+* Append old file
+f_fva.ap=1;
+alias(j2,j);
+
+loop(j2$(rxns_tested(j2)),
+    dummy(j)$(ord(j) ne ord(j2)) = no;
+    dummy(j)$(ord(j) eq ord(j2)) = yes;
+    display 'Performing FVA for rxn', j2;
+
+	high(j2) = v.lo(j2);
+	low(j2) = v.lo(j2);
+	if((v.lo(j2) ne 0) or (v.up(j2) ne 0),
+		Solve rba using lp maximizing z_fva;
+		If((rba.modelstat eq 1) and (z_fva.l gt v.lo(j2)),
+			high(j2) = z_fva.l / %nscale%;
+			solve rba using lp minimizing z_fva;
+			if(rba.modelstat eq 1,
+				low(j2) = z_fva.l / %nscale%;
+			);
+		);
+	);
+
+	put f_fva;
+    put j2.tl:0:50,system.tab,low(j2):0:8,system.tab,high(j2):0:8/;
+	putclose f_fva
+    );
+
+solve rba using lp minimizing z_fva;
+$include %model_root_path%GAMS/default_outputs.gms

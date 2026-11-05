@@ -1,0 +1,2 @@
+"rxn"	"flux"	"LB"	"UB"	"v_sm_lo"	"v_sm_up"
+"RXN-EX_glc__D_e_REV-SPONT"	13.210000000000000	0.00	1000.00	-13.21	1000.00

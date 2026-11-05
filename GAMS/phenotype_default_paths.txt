@@ -1,0 +1,31 @@
+* all default paths specific to your model and preferred phenotype
+* all other phenotype-specific settings go in phenotype_default.txt
+$setGlobal pheno_root_path %model_root_path%parameterization/kapp/datasets/ShenEtAl2024_batch/
+$setGlobal pheno_path %pheno_root_path%phenotype.txt
+$setGlobal kapp_path %pheno_root_path%kapps_RBA.txt
+$setGlobal prot_mass_flux_path %pheno_root_path%prot_mass_flux.txt
+
+$set path %pheno_root_path%kribo.txt
+$if exist %path% $setGlobal kribo_path %path%
+$set path %pheno_root_path%min_flux_violation/prot_mass_fraction_max.txt
+$if exist %path% $setGlobal prot_mass_fraction_max_path %path%
+$set path %pheno_root_path%min_flux_violation/membrane_SA_exp.txt
+$if exist %path% $setGlobal membrane_SA_exp_path %path%
+* turn off v_trans_AA limits unless needed (e.g., for comparing SM and RBA models) 
+*$set v_trans_UB_AA_path %pheno_root_path%min_flux_violation/test_kapp.v_trans_AA.txt
+*$set v_trans_UB_AA_path %model_root_path%build_model/input/v_trans_AA.txt
+$ifThen set v_trans_UB_AA_path
+$if exist %v_trans_UB_AA_path% $setGlobal v_trans_UB_AA_path %v_trans_UB_AA_path%
+$endIf
+* PROWASTE fluxes used during kapp calculations
+* unless specified otherwise (e.g., in test_kapp.gms), include prosyn constraints to reflect production of unused proteins; comment out if using dummy protein instead
+* Only use non-ribosomal estimates if ribosome composition is enforced, to avoid unintended flexbility in the model
+$set ribo_modifier _without_ribo
+$set path %pheno_root_path%prowaste_from_pro_with_data%ribo_modifier%.txt
+$if exist %path% $setGlobal prowaste_min_from_pro_with_data_path %path%
+$set path %pheno_root_path%prowaste_from_pro_without_data%ribo_modifier%.txt
+$if exist %path% $setGlobal prowaste_min_from_pro_without_data_path %path%
+$set path %pheno_root_path%prowaste_from_pro_with_data.txt
+$if exist %path% $setGlobal prowaste_max_from_pro_with_data_path %path%
+$set path %pheno_root_path%prowaste_from_pro_without_data.txt
+$if exist %path% $setGlobal prowaste_max_from_pro_without_data_path %path%

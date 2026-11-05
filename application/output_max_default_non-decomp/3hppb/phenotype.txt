@@ -1,0 +1,11 @@
+* adds phenotype_common.txt, then settings based on FBA yield predictions
+$include RBA_GAMS_defaults_from_FBA.txt
+
+* everything below overrides default settings, including phenotype_common.txt
+* ura3 knockout (not done in scaled-up strain tests)
+* v.fx("PROSYN-JL09_g1026") = 0.0;
+* pdc knockout
+v.fx("PROSYN-JL09_g917") = 0.0;
+* gpd knockout
+v.fx("PROSYN-JL09_g3814_c") = 0.0;
+v.fx("PROSYN-JL09_g3814_n") = 0.0;

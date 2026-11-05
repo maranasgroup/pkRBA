@@ -1,0 +1,9 @@
+* adds phenotype_common.txt, then settings based on FBA yield predictions
+$include RBA_GAMS_defaults_from_FBA.txt
+* If there's a phenotype_dir.txt file in the same directory as this phenotype.txt file, include it. This allows for a single phenotype_dir.txt file to be used for multiple phenotypes, rather than having to copy it into each phenotype directory.
+$set path ../phenotype_dir.txt
+$if exist %path% $include %path%
+
+* everything below overrides default settings, including phenotype_common.txt
+* g3473 knockout
+v.up(j)$expression('A0A099NZE8',j) = 0;

@@ -1,0 +1,37 @@
+* lower tolerances from past runs
+optcr = 1E-9
+optca = 1E-9
+eprhs = 1E-9
+
+* turn scaling off (-1) to prevent solving w/ unscaled infeasibilities
+scaind = 1
+* emphasize numerical precision
+numericalemphasis = 1
+
+solutiontype=2
+
+* use advanced basis for faster solves
+*advind = 1
+* presolver to simplify the problem
+*preind = 1
+
+lpmethod = 2
+
+* reduce info displayed, for faster run times
+conflictdisplay = 0
+bardisplay = 0
+clonelog = -1
+mipdisplay = 1
+netdisplay = 0
+simdisplay = 0
+siftdisplay = 0
+tuningdisplay = 0
+*writeannotation = /dev/null
+multobjdisplay = 0
+
+* debug only
+*writelp = kapp.lp
+
+* (use for debugging only) conflict refiner, to identify causes of any infeasibilities
+*iis = 1
+*conflictdisplay = 2

@@ -1,0 +1,2 @@
+index	prosynSlack(% higher/lower than measured value)
+A0A099P074	 3.053255484198752E+02

@@ -1,0 +1,2 @@
+* turn on use_membrane_SA_vivo(c) equations (from defaults.gms)
+use_membrane_SA_vivo(c) = 1;

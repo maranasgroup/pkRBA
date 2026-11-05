@@ -1,0 +1,85 @@
+* Parameters defined in this file will overwrite ones defined in GAMS runRBA.gms file
+* check runRBA_GAMS_settings.txt for additional settings (e.g., file paths)
+
+* included in model-version-settings:
+* NGAM (N-lim and C-lim chemostats using glucose)
+* max_allowed_mito_proteome_allo_fraction
+* nonmodeled_proteome_allocation
+$include %gms_path%model-version-settings.txt
+
+* Substrate and oxygenation
+v_sm_lo('EX_glc__D_e') = 0;
+* MFA o2 uptake (mu=0.38) = ~15; o2 uptake at glc uptake of 10, maximizing growth (mu=0.8 for GSM model) = ~26
+*v_sm_lo('EX_o2_e') = -15.9684414 * %nscale%;
+* v_sm_lo('EX_o2_e') = -26.25403530509562 * %nscale%;
+
+v_sm_lo('EX_o2_e') = -1e3 * %nscale%;
+v_sm_up('EX_o2_e') = 0 * %nscale%;
+
+* force relative abundances of proteins to match kapp calculations
+* If needed, could also try forcing PROWASTE to match, since it's off by default
+$setGlobal prosynSlackAllow 1e4 * %nscale%
+* minProsynSlack = 1 if you want to minimize deviations from the measured proteome before finding the highest yields, 
+** 0 otherwise
+$setGlobal minProsynSlack 1
+Parameters
+prosyn_for_kapps(j)
+$include "%pheno_root_path%min_flux_violation/enz_alloc.prosyn_unscaled.txt"
+;
+Variables prosynSlackSum, prosynSlackUB(j), prosynSlackLB(j)
+;
+prosynSlackLB.lo(j) = 0; prosynSlackLB.up(j) = inf;
+prosynSlackUB.lo(j) = 0; prosynSlackUB.up(j) = inf;
+
+Set rxns_tested(j) "rxns to include in FVA" / #enzload /
+
+$setGlobal biom_id_default 'BIOSYN-BIODILAERO'
+$setGlobal mu_0 0.47
+* force relative abundances of proteins to match kapp calculations
+*Equations proSynKapp(j); proSynKapp(j)$(prosyn_for_kapps(j) > 0).. v(j) - prosynSlackLB(j) + prosynSlackUB(j) =e= v('%biom_id_default%') * prosyn_for_kapps(j) / (%mu_0%);
+*Equations proSynKapp(j); proSynKapp(j)$(prosyn_for_kapps(j) > 0).. v(j) - prosynSlackLB(j) + prosynSlackUB(j) =e= v('%biom_id_default%') * prosyn_for_kapps(j) / (%mu_0% * %nscale%);
+*Equations proSynKappUB(j); proSynKappUB(j)$(prosyn_for_kapps(j) > 0).. v(j) - prosynSlackUB(j) =l= v('%biom_id_default%') * prosyn_for_kapps(j) / %mu_0%;
+*Equations proSynKappLB(j); proSynKappLB(j)$(prosyn_for_kapps(j) > 0).. v(j) + prosynSlackLB(j) =g= v('%biom_id_default%') * prosyn_for_kapps(j) / %mu_0%;
+*Equations proSynKappUB(j); proSynKappUB(j)$(prosyn_for_kapps(j) > 0).. v(j) - prosynSlackUB(j) =l= v('BIOSYN-PROTTOBIO') * prosyn_for_kapps(j);
+*Equations proSynKappLB(j); proSynKappLB(j)$(prosyn_for_kapps(j) > 0).. v(j) + prosynSlackLB(j) =g= v('BIOSYN-PROTTOBIO') * prosyn_for_kapps(j);
+Equation PSS; PSS.. prosynSlackSum =e= sum(j, prosynSlackLB(j) + prosynSlackUB(j));
+
+* kapp updates
+* RT default
+$setGlobal default_kapp 44294.70139072111
+* SC default
+$setGlobal default_kapp 35984.09696387159
+* SC default, adjusted to RT's growth rate
+$setGlobal default_kapp 35984.09696387159 * 0.38 / 0.367
+* PK default
+$setGlobal default_kapp 25270.788222992505
+parameters kapp_backup(j)
+$if not %ignore_kapps%==1 $include %kapp_path%
+;
+
+* set kapps of rxns if needed
+** here, kapps were chosen by finding the smallest number of rxns that needed their kapps turned on to grow on sucrose and use xylose.
+** Where possible, reliance upon rxns/enzymes not found in proteomics data or using the default kapp was minimized, to minimize deviations from in vivo behavior.
+set kapps_to_update(j)
+/
+/
+;
+
+set enzyme_kapps(enzsyn) "lowest kapp assigned to each enzyme" / #enzsyn /
+* find lowest nonzero kapp for each enzsyn rxn, using the enzload rxns that consume the enzyme this rxn produces
+* TODO: use this to match unknown rxns
+*enzyme_kapps(enzsyn) = smin(j$(kapp(j) > 0 and sum(i$(S(i,j) and S(i,enzsyn),1)), kapp(j)));
+
+file log /''/;
+
+* set kapp to default if not found, and to value from end of kapp calculations (i.e., min (isozyme kapps, default kapp)) otherwise
+loop(kapps_to_update(j),
+	if (kapp(j) eq 0,
+		if (kapp_backup(j) eq 0,
+			kapp(j) = %default_kapp%;
+		else
+			kapp(j) = kapp_backup(j);
+			put log; put j.tl/; putclose;
+			);
+		);
+	);

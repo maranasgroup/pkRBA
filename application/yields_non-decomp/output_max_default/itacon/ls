@@ -1,0 +1,130 @@
+$setGlobal gms %system.FN%
+** Copy of max yields (up to the solve statement)
+* run RBA without bisection, using default settings and outputs
+
+$include "./runRBA_GAMS_settings.txt"
+
+* if initial solve is infeasible, try adjustments (e.g., changing growth rate)
+$setGlobal adjust_constraints_if_infeas 0
+* % of min experimental yield model must at least match
+$setGlobal percent_min_exp_yield 0
+* default carbon slack (disabled by default)
+$setGlobal carbonSlack 0
+
+$include %model_root_path%GAMS/defaults.gms
+
+$setGlobal min_media_path %null_path%
+$set path "%gms_path%RBA_rxns_EXREV_minimal.txt"
+$if exist %path% $setGlobal min_media_path %path%
+sets
+rxns_add(j) "list of heterologous rxns added for model application"
+$include "%rxns_add_path%"
+min_media(j)
+$include %min_media_path%
+;
+
+parameters
+mw(j)
+$include "yield_denominators.txt"
+mw_other_possible_substrates(j)
+$include "yield_denominators_expanded.txt"
+mu_current
+;
+
+variables
+v_prod
+mv_sub_sum "sum of (substrate flux * MW) for all substrates"
+secretion_sum
+;
+
+* Turn off all heterologous rxns rxns_add
+* Corresponding rxns for specific product will be turned on in phenotype.txt file
+v.up(j)$rxns_add(j) = 0;
+
+$onMultiR
+$include phenotype.txt
+
+equations
+mvSubSum, minYield, maxProd, def_secretion_sum
+;
+mvSubSum.. mv_sub_sum =e= sum(j$mw(j),v(j)*mw(j));
+minYield.. minProductYield * mv_sub_sum * %percent_min_exp_yield% / 100 =l= %prod_mw% * v('%vprod%');
+maxProd..			v_prod =e= -v('%vprod%');
+def_secretion_sum..	secretion_sum =e= sum(secretion(j),v(j));
+
+Model rba
+/all/;
+rba.optfile = 1;
+$offMulti
+
+solve rba using lp minimizing v_prod;
+
+** FVA-only portion
+v_prod.up = max(v_prod.l + %bi_tol%, v_prod.l*(-1-%bi_tol%));
+
+$onMulti
+Sets
+rxns_tested(j) "rxns to include in FVA"
+dummy(j) "dummy set for iterating over rxns"
+;
+$offMulti
+if ((card(rxns_tested) = 0),
+	rxns_tested(j) = yes;
+);
+
+Parameters
+high(j), low(j), high_stat(j), low_stat(j)
+;
+
+Variables
+z_fva
+;
+
+Equations
+Obj_FVA
+;
+
+Obj_FVA..           z_fva =e= sum(j$dummy(j),v(j));
+$onMultiR
+model rba /all/;
+rba.optfile = 1;
+$offMulti
+*Updates output while solving, so errors won't get rid of output
+file f_fva /%system.FN%.txt/;
+put f_fva;
+* Clear old file
+put "rxn",system.tab,"min_flux",system.tab,"max_flux"/;
+f_fva.nr = 2;
+* Append old file
+f_fva.ap=1;
+alias(j2,j);
+
+loop(j2$(rxns_tested(j2)),
+    dummy(j)$(ord(j) ne ord(j2)) = no;
+    dummy(j)$(ord(j) eq ord(j2)) = yes;
+    display 'Performing FVA for rxn', j2;
+
+	high(j2) = v.lo(j2);
+	low(j2) = v.lo(j2);
+	high_stat(j2) = -1;
+	low_stat(j2) = -1;
+	if((v.lo(j2) ne 0) or (v.up(j2) ne 0),
+		Solve rba using lp maximizing z_fva;
+		high_stat(j2) = rba.modelstat;
+		If((rba.modelstat eq 1) and (z_fva.l gt v.lo(j2)),
+			high(j2) = z_fva.l / %nscale%;
+			solve rba using lp minimizing z_fva;
+			low_stat(j2) = rba.modelstat;
+			if(rba.modelstat eq 1,
+				low(j2) = z_fva.l / %nscale%;
+			);
+		);
+	);
+
+	put f_fva;
+    put j2.tl:0:50,system.tab,low(j2):0:8,system.tab,high(j2):0:8,system.tab,high_stat(j2):0:0,system.tab,low_stat(j2):0:0/;
+	putclose f_fva
+    );
+
+solve rba using lp minimizing z_fva;
+$include %model_root_path%GAMS/default_outputs.gms

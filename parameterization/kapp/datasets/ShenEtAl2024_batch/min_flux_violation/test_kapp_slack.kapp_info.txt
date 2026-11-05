@@ -1,0 +1,6 @@
+                                                            rxn  v_ENZLOAD     kapp_old      kapp_new      kapp_slack_ub kapp_slack_lb
+              RXN-ATPS_m_FWD-ATPS_mENZ_JL09_g4155JL09_g5735_c_m  0.0000E+00    1.8627E+04   UNDF           9.3207E-09    0.0000E+00
+                                      RXN-GLNS_c_FWD-JL09_g1262  0.0000E+00    3.9630E+05   UNDF           1.3350E-11    0.0000E+00
+           RXN-NADHcplxI_c_m_FWD-NADHcplxI_c_mENZ_g223g5116_c_m -1.8625E-10    1.8627E+04    0.0000E+00    1.8625E-10    0.0000E+00
+          RXN-NADHcplxI_c_m_FWD-NADHcplxI_c_mENZ_g2996g5874_c_m -2.7937E-10    1.8627E+04    0.0000E+00    2.7937E-10    0.0000E+00
+          RXN-NADHcplxI_c_m_FWD-NADHcplxI_c_mENZ_g5116g5874_c_m  2.7937E-10    1.8627E+04    3.6724E+05    5.2285E-09    0.0000E+00

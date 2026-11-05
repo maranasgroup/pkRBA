@@ -1,0 +1,60 @@
+# This file contains the biomass composition of the model (each unindented key is a rxn, each indented key is a metabolite), with the following changes:
+#  'MET-' prefixed metabolites and protein metabolites replaced by 'BIO-prot' (with a coefficient based on the molecular weight of the amino acids) to allow flexibility in proteins used.
+# Note: Review this file carefully (and the rxn Biomass_MFA, for comparison) before using it in your model. If other aspects of biomass composition should vary (e.g., carbohydrate fraction varying based on growth rate), see the documentation for more information.
+
+# For reference, here are automatically predicted values for:
+#   GAM (growth-associated maintenance): 214.719854 mmol ATP/gDW
+#   biomass MW: 1.001823897311992 g/mmol (should be close to 1 g/mmol; if not, confirm that GAM was accounted for properly and that all biomass components have formula weights available).
+BIOSYN-PROTTOBIO:
+  BIO-protmodeled: -1
+  BIO-prot: 1
+BIOSYN-BIODILAERO-NOGAM:
+  MET-13BDglucan_c: -0.5563708579137
+  MET-16BDglucan_en: -0.146413123325221
+  BIO-prot: -0.48411207221349006
+  MET-atp_c: -0.1013337097870135
+  MET-ca2_c: -0.00127221132835293
+  MET-chtn_c: -0.0131544277084828
+  MET-co2_c: 0.00271754628225934
+  MET-coa_c: 0.00543509256451867
+  MET-ctp_c: -0.0984697503812332
+  MET-cu2_c: -0.000112777676074832
+  MET-dag_c: 0.00271754628225934
+  MET-datp_c: -0.0415180132413032
+  MET-dctp_c: -0.0258043237082099
+  MET-dgtp_c: -0.0258043237082099
+  MET-dttp_c: -0.0415180132413032
+  MET-ergst_c: -0.0296555824183794
+  MET-ergstest_c: -0.00395117577406035
+  MET-fe2_c: -0.000656880499242883
+  MET-glycogen_c: -0.190843570587264
+  MET-gtp_c: -0.101333709786818
+  MET-h2o_c: 4.407153230793
+  MET-h_c: 0.0013587731409927528
+  MET-hdca_c: -0.000163230846950415
+  MET-hdcea_c: -6.72708945007771e-05
+  MET-hpdcea_c: -5.73781158977217e-05
+  MET-hxccoa_c: -0.00135877314112967
+  MET-k_c: -0.597177580373443
+  MET-linoea_c: -0.000249298020796998
+  MET-linolen_c: -8.21100624053603e-05
+  MET-mannan_c: -0.39837230156644
+  MET-mg2_c: -0.0629249968604549
+  MET-mn2_c: -9.29921188687213e-05
+  MET-nadp_c: 0.004076319423389
+  MET-nadph_c: -0.004076319423389
+  MET-o2_c: -0.00135877314112967
+  MET-ocdcea_c: -0.000339322306084802
+  MET-pail_c: -0.0102439722434639
+  MET-pc_c: -0.0141526090695311
+  MET-pe_c: -0.00342290139665719
+  MET-pi_c: -0.10452215233098627
+  MET-pmtcoa_c: -0.00271754628225934
+  MET-ppi_c: 0.56773667125075
+  MET-ps_c: -0.00183313187514618
+  MET-so4_c: -0.0308882226323201
+  MET-tag_c: -0.0037463952569771
+  MET-tre_c: -0.111921950725668
+  MET-ttccoa_c: -0.00135877314112967
+  MET-utp_c: -0.131953838118995
+  MET-zn2_c: -0.00155910190784154

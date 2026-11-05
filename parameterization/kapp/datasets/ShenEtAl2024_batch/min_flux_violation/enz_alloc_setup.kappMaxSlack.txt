@@ -1,0 +1,3 @@
+"kappMaxSlackSum="	 0.00E+00
+".m"	 0.00E+00
+"j"	"v"	"v_enzload"	"kapp_init"	"kapp est."	"slack"
